@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Colors/SubjectHierarchyPlugins/qSlicerSubjectHierarchyColorLegendPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Colors/SubjectHierarchyPlugins/qSlicerSubjectHierarchyColorLegendPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/SubjectHierarchyPlugins/moc_qSlicerSubjectHierarchyColorLegendPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/SubjectHierarchyPlugins/qrc_qSlicer.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/SubjectHierarchyPlugins/moc_qSlicerSubjectHierarchyColorLegendPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Resources/qSlicer.qrc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerColorsSubjectHierarchyPlugins"
+		],
+		"name" : "qSlicerColorsSubjectHierarchyPlugins"
+	}
+}

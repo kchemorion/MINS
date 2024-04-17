@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/Testing/Cxx/qSlicerBaseQTCoreCxxTests.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerAbstractCoreModuleTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerCoreApplicationTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerCoreIOManagerTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerLoadableModuleFactoryTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerUtilsTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerCorePythonManagerWithoutApplicationTest.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerScriptedUtilsTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerSslTest.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/Testing/Cxx/qrc_qSlicerBaseQTCoreTesting.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/Testing/Cxx/moc_qSlicerCorePythonManagerWithoutApplicationTest.cxx.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/Testing/Cxx/moc_qSlicerSslTest.cxx.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/Testing/Cxx/Resources/qSlicerBaseQTCoreTesting.qrc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerBaseQTCore"
+		],
+		"name" : "qSlicerBaseQTCoreCxxTests"
+	}
+}

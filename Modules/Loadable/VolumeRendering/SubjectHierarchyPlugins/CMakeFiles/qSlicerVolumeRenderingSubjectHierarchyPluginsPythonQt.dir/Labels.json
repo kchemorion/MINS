@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/moc_osm_qSlicerVolumeRenderingSubjectHierarchyPlugins.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/moc_osm_qSlicerVolumeRenderingSubjectHierarchyPlugins.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerVolumeRenderingSubjectHierarchyPlugins"
+		],
+		"name" : "qSlicerVolumeRenderingSubjectHierarchyPluginsPythonQt"
+	}
+}

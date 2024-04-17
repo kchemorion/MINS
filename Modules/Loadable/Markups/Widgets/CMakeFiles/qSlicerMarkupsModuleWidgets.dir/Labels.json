@@ -1,0 +1,226 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsDisplayNodeWidget.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsDisplayNodeWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsFiducialProjectionPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsFiducialProjectionPropertyWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsInteractionHandleWidget.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsInteractionHandleWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsToolBar.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsToolBar.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsToolBar_p.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsPlaneWidget.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsPlaneWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsROIWidget.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsROIWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsAbstractOptionsWidget.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsAbstractOptionsWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsAngleMeasurementsWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsAngleMeasurementsWidget.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsCurveSettingsWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsCurveSettingsWidget.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsOptionsWidgetsFactory.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qMRMLMarkupsOptionsWidgetsFactory.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qSlicerMarkupsPlaceWidget.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qSlicerMarkupsPlaceWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qSlicerSimpleMarkupsWidget.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qSlicerSimpleMarkupsWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsDisplayNodeWidget.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsFiducialProjectionPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsInteractionHandleWidget.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsToolBar.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsToolBar_p.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsPlaneWidget.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsROIWidget.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsAbstractOptionsWidget.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsAngleMeasurementsWidget.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsCurveSettingsWidget.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsOptionsWidgetsFactory.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qSlicerMarkupsPlaceWidget.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qSlicerSimpleMarkupsWidget.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/ui_qMRMLMarkupsDisplayNodeWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/ui_qMRMLMarkupsFiducialProjectionPropertyWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/ui_qMRMLMarkupsInteractionHandleWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/ui_qMRMLMarkupsPlaneWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/ui_qMRMLMarkupsROIWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/ui_qMRMLMarkupsAngleMeasurementsWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/ui_qMRMLMarkupsCurveSettingsWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/ui_qSlicerMarkupsPlaceWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/ui_qSlicerSimpleMarkupsWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/qrc_qSlicer.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsDisplayNodeWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsFiducialProjectionPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsInteractionHandleWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsToolBar.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsToolBar_p.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsPlaneWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsROIWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsAbstractOptionsWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsAngleMeasurementsWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsCurveSettingsWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qMRMLMarkupsOptionsWidgetsFactory.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qSlicerMarkupsPlaceWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qSlicerSimpleMarkupsWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/Resources/UI/qMRMLMarkupsDisplayNodeWidget.ui"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/Resources/UI/qMRMLMarkupsFiducialProjectionPropertyWidget.ui"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/Resources/UI/qMRMLMarkupsInteractionHandleWidget.ui"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/Resources/UI/qMRMLMarkupsPlaneWidget.ui"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/Resources/UI/qMRMLMarkupsROIWidget.ui"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/Resources/UI/qMRMLMarkupsAngleMeasurementsWidget.ui"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/Resources/UI/qMRMLMarkupsCurveSettingsWidget.ui"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/Resources/UI/qSlicerMarkupsPlaceWidget.ui"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/Resources/UI/qSlicerSimpleMarkupsWidget.ui"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Resources/qSlicer.qrc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerMarkupsModuleWidgets"
+		],
+		"name" : "qSlicerMarkupsModuleWidgets"
+	}
+}

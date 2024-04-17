@@ -1,0 +1,160 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorEffectFactory.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorEffectFactory.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorAbstractEffect.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorAbstractEffect.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorAbstractEffect_p.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorAbstractLabelEffect.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorAbstractLabelEffect.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorAbstractLabelEffect_p.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorPaintEffect.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorPaintEffect.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorPaintEffect_p.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorEraseEffect.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorEraseEffect.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorScissorsEffect.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorScissorsEffect.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorScriptedEffect.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorScriptedEffect.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorScriptedLabelEffect.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorScriptedLabelEffect.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorScriptedPaintEffect.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorScriptedPaintEffect.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorEffectFactory.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorAbstractEffect.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorAbstractEffect_p.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorAbstractLabelEffect.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorAbstractLabelEffect_p.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorPaintEffect.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorPaintEffect_p.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorEraseEffect.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorScissorsEffect.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorScriptedEffect.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorScriptedLabelEffect.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorScriptedPaintEffect.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/qrc_qSlicerSegmentationsEditorEffects.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/qrc_qSlicer.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorEffectFactory.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorAbstractEffect.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorAbstractEffect_p.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorAbstractLabelEffect.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorAbstractLabelEffect_p.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorPaintEffect.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorPaintEffect_p.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorEraseEffect.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorScissorsEffect.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorScriptedEffect.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorScriptedLabelEffect.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentEditorScriptedPaintEffect.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/Resources/qSlicerSegmentationsEditorEffects.qrc"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Resources/qSlicer.qrc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerSegmentationsEditorEffects"
+		],
+		"name" : "qSlicerSegmentationsEditorEffects"
+	}
+}

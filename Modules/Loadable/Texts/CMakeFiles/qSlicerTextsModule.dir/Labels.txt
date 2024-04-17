@@ -1,0 +1,21 @@
+# Target labels
+ qSlicerTextsModule
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/qSlicerTextsModule.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/qSlicerTextsModule.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/qSlicerTextsModuleWidget.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/qSlicerTextsModuleWidget.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/qSlicerTextsReader.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/qSlicerTextsReader.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/moc_qSlicerTextsModule.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/moc_qSlicerTextsModuleWidget.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/moc_qSlicerTextsReader.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/ui_qSlicerTextsModuleWidget.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/qrc_qSlicerTextsModule.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/qrc_qSlicer.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/moc_qSlicerTextsModule.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/moc_qSlicerTextsModuleWidget.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/moc_qSlicerTextsReader.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/Resources/UI/qSlicerTextsModuleWidget.ui
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/Resources/qSlicerTextsModule.qrc
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Resources/qSlicer.qrc

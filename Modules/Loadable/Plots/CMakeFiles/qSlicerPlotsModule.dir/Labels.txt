@@ -1,0 +1,17 @@
+# Target labels
+ qSlicerPlotsModule
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/qSlicerPlotsModule.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/qSlicerPlotsModule.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/qSlicerPlotsModuleWidget.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/qSlicerPlotsModuleWidget.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/moc_qSlicerPlotsModule.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/moc_qSlicerPlotsModuleWidget.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/ui_qSlicerPlotsModuleWidget.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/qrc_qSlicerPlotsModule.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/qrc_qSlicer.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/moc_qSlicerPlotsModule.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/moc_qSlicerPlotsModuleWidget.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Resources/UI/qSlicerPlotsModuleWidget.ui
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Resources/qSlicerPlotsModule.qrc
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Resources/qSlicer.qrc

@@ -1,0 +1,13 @@
+# Target labels
+ qSlicerDICOMLibModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/DesignerPlugins/qSlicerDICOMLibModuleWidgetsAbstractPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/DesignerPlugins/qSlicerDICOMLibModuleWidgetsAbstractPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/DesignerPlugins/qSlicerDICOMLibModuleWidgetsPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/DesignerPlugins/qSlicerDICOMLibModuleWidgetsPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/DesignerPlugins/qSlicerDICOMTagEditorWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/DesignerPlugins/qSlicerDICOMTagEditorWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/DesignerPlugins/moc_qSlicerDICOMLibModuleWidgetsPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/DesignerPlugins/moc_qSlicerDICOMTagEditorWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/DesignerPlugins/moc_qSlicerDICOMLibModuleWidgetsPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/DesignerPlugins/moc_qSlicerDICOMTagEditorWidgetPlugin.cpp.rule

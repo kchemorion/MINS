@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/generated_cpp/osb_qSlicerBaseQTCore/osb_qSlicerBaseQTCore_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/generated_cpp/osb_qSlicerBaseQTCore/osb_qSlicerBaseQTCore_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/generated_cpp/osb_qSlicerBaseQTCore/moc_osb_qSlicerBaseQTCore.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/qSlicerBaseQTCorePythonQtDecorators.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/moc_qSlicerBaseQTCorePythonQtDecorators.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/generated_cpp/osb_qSlicerBaseQTCore/osb_qSlicerBaseQTCore_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/generated_cpp/osb_qSlicerBaseQTCore/moc_osb_qSlicerBaseQTCore.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/moc_qSlicerBaseQTCorePythonQtDecorators.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerBaseQTCore"
+		],
+		"name" : "qSlicerBaseQTCorePythonQt"
+	}
+}

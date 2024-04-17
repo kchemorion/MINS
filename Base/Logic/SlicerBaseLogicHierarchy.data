@@ -1,0 +1,10 @@
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkSlicerApplicationLogic.h;SlicerBaseLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkSlicerModuleLogic.h;SlicerBaseLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkSlicerTask.h;SlicerBaseLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkDataIOManagerLogic.h;SlicerBaseLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkTransformVisualizerGlyph3D.h;SlicerBaseLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkImageRectangularSource.h;SlicerBaseLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkSystemInformation.h;SlicerBaseLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkImageFillROI.h;SlicerBaseLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkSlicerScriptedLoadableModuleLogic.h;SlicerBaseLogicPython
+

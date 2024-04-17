@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/generated_cpp/osm_qSlicerMarkupsModuleWidgets/osm_qSlicerMarkupsModuleWidgets_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/generated_cpp/osm_qSlicerMarkupsModuleWidgets/osm_qSlicerMarkupsModuleWidgets_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/generated_cpp/osm_qSlicerMarkupsModuleWidgets/moc_osm_qSlicerMarkupsModuleWidgets.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qSlicerMarkupsModuleWidgetsPythonQtDecorators.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qSlicerMarkupsModuleWidgetsPythonQtDecorators.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/generated_cpp/osm_qSlicerMarkupsModuleWidgets/osm_qSlicerMarkupsModuleWidgets_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/generated_cpp/osm_qSlicerMarkupsModuleWidgets/moc_osm_qSlicerMarkupsModuleWidgets.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qSlicerMarkupsModuleWidgetsPythonQtDecorators.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerMarkupsModuleWidgets"
+		],
+		"name" : "qSlicerMarkupsModuleWidgetsPythonQt"
+	}
+}

@@ -1,0 +1,42 @@
+
+#ifndef CLIMODULE4TESTLIB_EXPORT_H
+#define CLIMODULE4TESTLIB_EXPORT_H
+
+#ifdef CLIMODULE4TESTLIB_STATIC_DEFINE
+#  define CLIMODULE4TESTLIB_EXPORT
+#  define CLIMODULE4TESTLIB_NO_EXPORT
+#else
+#  ifndef CLIMODULE4TESTLIB_EXPORT
+#    ifdef CLIModule4TestLib_EXPORTS
+        /* We are building this library */
+#      define CLIMODULE4TESTLIB_EXPORT __attribute__((visibility("default")))
+#    else
+        /* We are using this library */
+#      define CLIMODULE4TESTLIB_EXPORT __attribute__((visibility("default")))
+#    endif
+#  endif
+
+#  ifndef CLIMODULE4TESTLIB_NO_EXPORT
+#    define CLIMODULE4TESTLIB_NO_EXPORT __attribute__((visibility("hidden")))
+#  endif
+#endif
+
+#ifndef CLIMODULE4TESTLIB_DEPRECATED
+#  define CLIMODULE4TESTLIB_DEPRECATED __attribute__ ((__deprecated__))
+#endif
+
+#ifndef CLIMODULE4TESTLIB_DEPRECATED_EXPORT
+#  define CLIMODULE4TESTLIB_DEPRECATED_EXPORT CLIMODULE4TESTLIB_EXPORT CLIMODULE4TESTLIB_DEPRECATED
+#endif
+
+#ifndef CLIMODULE4TESTLIB_DEPRECATED_NO_EXPORT
+#  define CLIMODULE4TESTLIB_DEPRECATED_NO_EXPORT CLIMODULE4TESTLIB_NO_EXPORT CLIMODULE4TESTLIB_DEPRECATED
+#endif
+
+#if 0 /* DEFINE_NO_DEPRECATED */
+#  ifndef CLIMODULE4TESTLIB_NO_DEPRECATED
+#    define CLIMODULE4TESTLIB_NO_DEPRECATED
+#  endif
+#endif
+
+#endif /* CLIMODULE4TESTLIB_EXPORT_H */

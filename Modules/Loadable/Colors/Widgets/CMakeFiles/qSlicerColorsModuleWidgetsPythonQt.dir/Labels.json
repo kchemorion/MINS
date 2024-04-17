@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/Widgets/generated_cpp/osm_qSlicerColorsModuleWidgets/osm_qSlicerColorsModuleWidgets_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/Widgets/generated_cpp/osm_qSlicerColorsModuleWidgets/osm_qSlicerColorsModuleWidgets_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/Widgets/generated_cpp/osm_qSlicerColorsModuleWidgets/moc_osm_qSlicerColorsModuleWidgets.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/Widgets/generated_cpp/osm_qSlicerColorsModuleWidgets/osm_qSlicerColorsModuleWidgets_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/Widgets/generated_cpp/osm_qSlicerColorsModuleWidgets/moc_osm_qSlicerColorsModuleWidgets.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerColorsModuleWidgets"
+		],
+		"name" : "qSlicerColorsModuleWidgetsPythonQt"
+	}
+}

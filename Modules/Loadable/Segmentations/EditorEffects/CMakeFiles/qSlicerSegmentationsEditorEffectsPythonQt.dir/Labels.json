@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/generated_cpp/osm_qSlicerSegmentationsEditorEffects/osm_qSlicerSegmentationsEditorEffects_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/generated_cpp/osm_qSlicerSegmentationsEditorEffects/osm_qSlicerSegmentationsEditorEffects_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/generated_cpp/osm_qSlicerSegmentationsEditorEffects/moc_osm_qSlicerSegmentationsEditorEffects.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentationsEditorEffectsPythonQtDecorators.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentationsEditorEffectsPythonQtDecorators.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/generated_cpp/osm_qSlicerSegmentationsEditorEffects/osm_qSlicerSegmentationsEditorEffects_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/generated_cpp/osm_qSlicerSegmentationsEditorEffects/moc_osm_qSlicerSegmentationsEditorEffects.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/EditorEffects/moc_qSlicerSegmentationsEditorEffectsPythonQtDecorators.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerSegmentationsEditorEffects"
+		],
+		"name" : "qSlicerSegmentationsEditorEffectsPythonQt"
+	}
+}

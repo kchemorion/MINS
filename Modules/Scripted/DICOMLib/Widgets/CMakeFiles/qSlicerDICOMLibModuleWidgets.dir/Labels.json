@@ -1,0 +1,73 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMExportDialog.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMExportDialog.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMLoadable.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMLoadable.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMExportable.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMExportable.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMTagEditorWidget.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMTagEditorWidget.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMExportDialog.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMLoadable.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMExportable.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMTagEditorWidget.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/ui_qSlicerDICOMExportDialog.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/qrc_qSlicer.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMExportDialog.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMLoadable.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMExportable.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMTagEditorWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/Resources/UI/qSlicerDICOMExportDialog.ui"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Resources/qSlicer.qrc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerDICOMLibModuleWidgets"
+		],
+		"name" : "qSlicerDICOMLibModuleWidgets"
+	}
+}

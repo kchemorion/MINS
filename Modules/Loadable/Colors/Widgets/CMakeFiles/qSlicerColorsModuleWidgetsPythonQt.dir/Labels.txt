@@ -1,0 +1,8 @@
+# Target labels
+ qSlicerColorsModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/Widgets/generated_cpp/osm_qSlicerColorsModuleWidgets/osm_qSlicerColorsModuleWidgets_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/Widgets/generated_cpp/osm_qSlicerColorsModuleWidgets/osm_qSlicerColorsModuleWidgets_module_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/Widgets/generated_cpp/osm_qSlicerColorsModuleWidgets/moc_osm_qSlicerColorsModuleWidgets.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/Widgets/generated_cpp/osm_qSlicerColorsModuleWidgets/osm_qSlicerColorsModuleWidgets_init.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/Widgets/generated_cpp/osm_qSlicerColorsModuleWidgets/moc_osm_qSlicerColorsModuleWidgets.cpp.rule

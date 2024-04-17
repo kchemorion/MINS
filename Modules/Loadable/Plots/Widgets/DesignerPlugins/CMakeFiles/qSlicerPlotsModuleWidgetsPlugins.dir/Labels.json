@@ -1,0 +1,55 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qSlicerPlotsModuleWidgetsAbstractPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qSlicerPlotsModuleWidgetsAbstractPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qSlicerPlotsModuleWidgetsPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qSlicerPlotsModuleWidgetsPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qMRMLPlotSeriesPropertiesWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qMRMLPlotSeriesPropertiesWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qMRMLPlotChartPropertiesWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qMRMLPlotChartPropertiesWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/DesignerPlugins/moc_qSlicerPlotsModuleWidgetsPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/DesignerPlugins/moc_qMRMLPlotSeriesPropertiesWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/DesignerPlugins/moc_qMRMLPlotChartPropertiesWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/DesignerPlugins/moc_qSlicerPlotsModuleWidgetsPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/DesignerPlugins/moc_qMRMLPlotSeriesPropertiesWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/DesignerPlugins/moc_qMRMLPlotChartPropertiesWidgetPlugin.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerPlotsModuleWidgets"
+		],
+		"name" : "qSlicerPlotsModuleWidgetsPlugins"
+	}
+}

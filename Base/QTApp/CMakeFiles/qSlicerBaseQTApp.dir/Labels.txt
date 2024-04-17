@@ -1,0 +1,27 @@
+# Target labels
+ qSlicerBaseQTApp
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTApp/qSlicerAboutDialog.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTApp/qSlicerAboutDialog.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTApp/qSlicerApplicationHelper.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTApp/qSlicerApplicationHelper.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTApp/qSlicerErrorReportDialog.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTApp/qSlicerErrorReportDialog.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTApp/qSlicerMainWindow.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTApp/qSlicerMainWindow.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTApp/moc_qSlicerAboutDialog.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTApp/moc_qSlicerApplicationHelper.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTApp/moc_qSlicerErrorReportDialog.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTApp/moc_qSlicerMainWindow.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTApp/ui_qSlicerAboutDialog.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTApp/ui_qSlicerErrorReportDialog.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTApp/ui_qSlicerMainWindow.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTApp/qrc_qSlicer.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTApp/moc_qSlicerAboutDialog.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTApp/moc_qSlicerApplicationHelper.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTApp/moc_qSlicerErrorReportDialog.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTApp/moc_qSlicerMainWindow.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTApp/Resources/UI/qSlicerAboutDialog.ui
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTApp/Resources/UI/qSlicerErrorReportDialog.ui
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTApp/Resources/UI/qSlicerMainWindow.ui
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Resources/qSlicer.qrc

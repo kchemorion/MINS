@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/Testing/ResampleDTIVolumeTest.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ResampleDTIVolume"
+		],
+		"name" : "ResampleDTIVolumeTest"
+	}
+}

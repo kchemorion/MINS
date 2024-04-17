@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Transforms/Widgets/generated_cpp/osm_qSlicerTransformsModuleWidgets/osm_qSlicerTransformsModuleWidgets_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Transforms/Widgets/generated_cpp/osm_qSlicerTransformsModuleWidgets/osm_qSlicerTransformsModuleWidgets_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Transforms/Widgets/generated_cpp/osm_qSlicerTransformsModuleWidgets/moc_osm_qSlicerTransformsModuleWidgets.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Transforms/Widgets/generated_cpp/osm_qSlicerTransformsModuleWidgets/osm_qSlicerTransformsModuleWidgets_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Transforms/Widgets/generated_cpp/osm_qSlicerTransformsModuleWidgets/moc_osm_qSlicerTransformsModuleWidgets.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerTransformsModuleWidgets"
+		],
+		"name" : "qSlicerTransformsModuleWidgetsPythonQt"
+	}
+}

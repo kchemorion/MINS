@@ -1,0 +1,23 @@
+# Target labels
+ qSlicerDICOMLibModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMExportDialog.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMExportDialog.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMLoadable.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMLoadable.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMExportable.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMExportable.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMTagEditorWidget.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/qSlicerDICOMTagEditorWidget.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMExportDialog.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMLoadable.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMExportable.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMTagEditorWidget.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/ui_qSlicerDICOMExportDialog.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/qrc_qSlicer.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMExportDialog.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMLoadable.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMExportable.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/moc_qSlicerDICOMTagEditorWidget.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Scripted/DICOMLib/Widgets/Resources/UI/qSlicerDICOMExportDialog.ui
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Resources/qSlicer.qrc

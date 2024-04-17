@@ -1,0 +1,6 @@
+# Target labels
+ CLIModule4Test
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/Testing/CLIModule4TestCLP.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/Testing/CLIModule4Test.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/Testing/CLIModule4TestCLP.h.rule

@@ -1,0 +1,17 @@
+vtkSlicerMarkupsModuleLogicPython
+vtkSlicerMarkupsLogic
+vtkSlicerMarkupsLogic
+DEPENDS
+vtkSlicerMarkupsModuleMRMLPython
+MRMLCorePython
+vtkAddonPython
+vtkITKPython
+vtkSegmentationCorePython
+vtkTeemPython
+MRMLLogicPython
+MRMLDisplayableManagerPython
+MRMLCLIPython
+vtkSlicerMarkupsModuleVTKWidgetsPython
+qSlicerBaseQTCLIPython
+SlicerBaseLogicPython
+vtkSlicerAnnotationsModuleMRMLPython

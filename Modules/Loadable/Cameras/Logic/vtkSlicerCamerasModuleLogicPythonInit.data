@@ -1,0 +1,14 @@
+vtkSlicerCamerasModuleLogicPython
+vtkSlicerCamerasModuleLogic
+vtkSlicerCamerasModuleLogic
+DEPENDS
+qSlicerBaseQTCLIPython
+MRMLCLIPython
+MRMLCorePython
+vtkAddonPython
+vtkITKPython
+vtkSegmentationCorePython
+vtkTeemPython
+SlicerBaseLogicPython
+MRMLLogicPython
+MRMLDisplayableManagerPython

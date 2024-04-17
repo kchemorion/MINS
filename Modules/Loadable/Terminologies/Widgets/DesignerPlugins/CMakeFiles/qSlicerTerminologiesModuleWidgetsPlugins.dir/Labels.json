@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologiesModuleWidgetsAbstractPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologiesModuleWidgetsAbstractPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologiesModuleWidgetsPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologiesModuleWidgetsPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologyNavigatorWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologyNavigatorWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/moc_qSlicerTerminologiesModuleWidgetsPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/moc_qSlicerTerminologyNavigatorWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/moc_qSlicerTerminologiesModuleWidgetsPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/moc_qSlicerTerminologyNavigatorWidgetPlugin.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerTerminologiesModuleWidgets"
+		],
+		"name" : "qSlicerTerminologiesModuleWidgetsPlugins"
+	}
+}

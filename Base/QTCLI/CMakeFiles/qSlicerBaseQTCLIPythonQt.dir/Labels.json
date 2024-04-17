@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/generated_cpp/osb_qSlicerBaseQTCLI/osb_qSlicerBaseQTCLI_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/generated_cpp/osb_qSlicerBaseQTCLI/osb_qSlicerBaseQTCLI_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/generated_cpp/osb_qSlicerBaseQTCLI/moc_osb_qSlicerBaseQTCLI.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/generated_cpp/osb_qSlicerBaseQTCLI/osb_qSlicerBaseQTCLI_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/generated_cpp/osb_qSlicerBaseQTCLI/moc_osb_qSlicerBaseQTCLI.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerBaseQTCLI"
+		],
+		"name" : "qSlicerBaseQTCLIPythonQt"
+	}
+}

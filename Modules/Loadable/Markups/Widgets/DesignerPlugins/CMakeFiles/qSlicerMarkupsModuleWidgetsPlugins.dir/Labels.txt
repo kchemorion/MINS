@@ -1,0 +1,33 @@
+# Target labels
+ qSlicerMarkupsModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsAbstractPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsAbstractPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsDisplayNodeWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsDisplayNodeWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsInteractionHandleWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsInteractionHandleWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsROIWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsROIWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsPlaceWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsPlaceWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerSimpleMarkupsWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerSimpleMarkupsWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qSlicerMarkupsModuleWidgetsPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsDisplayNodeWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsInteractionHandleWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsROIWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qSlicerMarkupsPlaceWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qSlicerSimpleMarkupsWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qSlicerMarkupsModuleWidgetsPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsDisplayNodeWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsInteractionHandleWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsROIWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qSlicerMarkupsPlaceWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qSlicerSimpleMarkupsWidgetPlugin.cpp.rule

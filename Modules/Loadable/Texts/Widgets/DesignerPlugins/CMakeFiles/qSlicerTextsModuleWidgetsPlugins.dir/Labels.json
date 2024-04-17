@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/Widgets/DesignerPlugins/qSlicerTextsModuleWidgetsAbstractPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/Widgets/DesignerPlugins/qSlicerTextsModuleWidgetsAbstractPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/Widgets/DesignerPlugins/qSlicerTextsModuleWidgetsPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/Widgets/DesignerPlugins/qSlicerTextsModuleWidgetsPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/Widgets/DesignerPlugins/qMRMLTextWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/Widgets/DesignerPlugins/qMRMLTextWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/Widgets/DesignerPlugins/moc_qSlicerTextsModuleWidgetsPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/Widgets/DesignerPlugins/moc_qMRMLTextWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/Widgets/DesignerPlugins/moc_qSlicerTextsModuleWidgetsPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/Widgets/DesignerPlugins/moc_qMRMLTextWidgetPlugin.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerTextsModuleWidgets"
+		],
+		"name" : "qSlicerTextsModuleWidgetsPlugins"
+	}
+}

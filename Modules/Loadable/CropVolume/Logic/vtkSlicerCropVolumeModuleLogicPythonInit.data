@@ -1,0 +1,17 @@
+vtkSlicerCropVolumeModuleLogicPython
+vtkSlicerCropVolumeLogic
+vtkSlicerCropVolumeLogic
+DEPENDS
+vtkSlicerCropVolumeModuleMRMLPython
+MRMLCorePython
+vtkAddonPython
+vtkITKPython
+vtkSegmentationCorePython
+vtkTeemPython
+MRMLLogicPython
+MRMLDisplayableManagerPython
+MRMLCLIPython
+vtkSlicerMarkupsModuleMRMLPython
+vtkSlicerVolumesModuleLogicPython
+qSlicerBaseQTCLIPython
+SlicerBaseLogicPython

@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Tables/SubjectHierarchyPlugins/qSlicerSubjectHierarchyTablesPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Tables/SubjectHierarchyPlugins/qSlicerSubjectHierarchyTablesPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Tables/SubjectHierarchyPlugins/moc_qSlicerSubjectHierarchyTablesPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Tables/SubjectHierarchyPlugins/qrc_qSlicerTablesSubjectHierarchyPlugins.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Tables/SubjectHierarchyPlugins/qrc_qSlicer.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Tables/SubjectHierarchyPlugins/moc_qSlicerSubjectHierarchyTablesPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Tables/SubjectHierarchyPlugins/Resources/qSlicerTablesSubjectHierarchyPlugins.qrc"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Resources/qSlicer.qrc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerTablesSubjectHierarchyPlugins"
+		],
+		"name" : "qSlicerTablesSubjectHierarchyPlugins"
+	}
+}

@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "../../../../lib/MINS-5.6/qt-loadable-modules/qSlicerTransformsSubjectHierarchyPluginsPythonQt.pdb"
+  "../../../../lib/MINS-5.6/qt-loadable-modules/qSlicerTransformsSubjectHierarchyPluginsPythonQt.so"
+  "CMakeFiles/qSlicerTransformsSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/moc_osm_qSlicerTransformsSubjectHierarchyPlugins.cpp.o"
+  "CMakeFiles/qSlicerTransformsSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/moc_osm_qSlicerTransformsSubjectHierarchyPlugins.cpp.o.d"
+  "CMakeFiles/qSlicerTransformsSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/osm_qSlicerTransformsSubjectHierarchyPlugins_init.cpp.o"
+  "CMakeFiles/qSlicerTransformsSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/osm_qSlicerTransformsSubjectHierarchyPlugins_init.cpp.o.d"
+  "CMakeFiles/qSlicerTransformsSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/osm_qSlicerTransformsSubjectHierarchyPlugins_module_init.cpp.o"
+  "CMakeFiles/qSlicerTransformsSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/osm_qSlicerTransformsSubjectHierarchyPlugins_module_init.cpp.o.d"
+  "generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/moc_osm_qSlicerTransformsSubjectHierarchyPlugins.cpp"
+  "generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/osm_qSlicerTransformsSubjectHierarchyPlugins.h"
+  "generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/osm_qSlicerTransformsSubjectHierarchyPlugins_init.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/qSlicerTransformsSubjectHierarchyPluginsPythonQt.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

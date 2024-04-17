@@ -1,0 +1,4 @@
+# Target labels
+ SlicerBaseCLI
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/CLI/vtkPluginFilterWatcher.cxx

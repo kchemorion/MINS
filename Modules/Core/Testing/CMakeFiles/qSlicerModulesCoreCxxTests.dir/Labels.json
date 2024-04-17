@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Core/Testing/qSlicerModulesCoreCxxTests.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Core/Testing/qSlicerCoreModuleTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Core/Testing/qSlicerCoreModuleFactoryTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Core/Testing/qSlicerModulePanelTest2.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Core/Testing/qSlicerEventBrokerModuleGenericTest.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Core/Testing/qSlicerEventBrokerModuleWidgetGenericTest.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerModulesCore"
+		],
+		"name" : "qSlicerModulesCoreCxxTests"
+	}
+}

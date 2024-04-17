@@ -1,0 +1,13 @@
+# Target labels
+ qSlicerTerminologiesModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologiesModuleWidgetsAbstractPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologiesModuleWidgetsAbstractPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologiesModuleWidgetsPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologiesModuleWidgetsPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologyNavigatorWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologyNavigatorWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/moc_qSlicerTerminologiesModuleWidgetsPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/moc_qSlicerTerminologyNavigatorWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/moc_qSlicerTerminologiesModuleWidgetsPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Terminologies/Widgets/DesignerPlugins/moc_qSlicerTerminologyNavigatorWidgetPlugin.cpp.rule

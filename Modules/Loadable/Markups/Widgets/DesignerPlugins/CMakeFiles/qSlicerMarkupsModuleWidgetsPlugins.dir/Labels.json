@@ -1,0 +1,103 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsAbstractPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsAbstractPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsDisplayNodeWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsDisplayNodeWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsInteractionHandleWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsInteractionHandleWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsROIWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qMRMLMarkupsROIWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsPlaceWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsPlaceWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerSimpleMarkupsWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerSimpleMarkupsWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qSlicerMarkupsModuleWidgetsPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsDisplayNodeWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsInteractionHandleWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsROIWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qSlicerMarkupsPlaceWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qSlicerSimpleMarkupsWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qSlicerMarkupsModuleWidgetsPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsDisplayNodeWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsInteractionHandleWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qMRMLMarkupsROIWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qSlicerMarkupsPlaceWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/DesignerPlugins/moc_qSlicerSimpleMarkupsWidgetPlugin.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerMarkupsModuleWidgets"
+		],
+		"name" : "qSlicerMarkupsModuleWidgetsPlugins"
+	}
+}

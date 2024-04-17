@@ -1,0 +1,14 @@
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Logic/vtkMRMLAbstractLogic.h;MRMLLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Logic/vtkMRMLApplicationLogic.h;MRMLLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Logic/vtkMRMLColorLogic.h;MRMLLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Logic/vtkMRMLDisplayableHierarchyLogic.h;MRMLLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Logic/vtkMRMLRemoteIOLogic.h;MRMLLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Logic/vtkMRMLLayoutLogic.h;MRMLLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Logic/vtkMRMLSliceLayerLogic.h;MRMLLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Logic/vtkMRMLSliceLogic.h;MRMLLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Logic/vtkMRMLSliceLinkLogic.h;MRMLLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Logic/vtkMRMLViewLogic.h;MRMLLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Logic/vtkMRMLViewLinkLogic.h;MRMLLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Logic/vtkImageLabelOutline.h;MRMLLogicPython
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Logic/vtkImageNeighborhoodFilter.h;MRMLLogicPython
+

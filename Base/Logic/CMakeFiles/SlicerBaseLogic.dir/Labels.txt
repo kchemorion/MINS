@@ -1,0 +1,14 @@
+# Target labels
+ SlicerBaseLogic
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkSlicerApplicationLogic.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkSlicerModuleLogic.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkSlicerTask.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkDataIOManagerLogic.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkTransformVisualizerGlyph3D.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkImageRectangularSource.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkSystemInformation.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkImageFillROI.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/vtkSlicerScriptedLoadableModuleLogic.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/SlicerBaseLogicHierarchy.txt
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/Logic/SlicerBaseLogicHierarchy.stamp.txt.rule

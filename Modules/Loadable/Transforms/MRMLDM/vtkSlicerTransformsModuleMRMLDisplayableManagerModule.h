@@ -1,0 +1,6 @@
+
+#ifndef __vtkSlicerTransformsModuleMRMLDisplayableManagerModule_h
+#define __vtkSlicerTransformsModuleMRMLDisplayableManagerModule_h
+#include "vtkSlicerTransformsModuleMRMLDisplayableManagerExport.h"
+#endif
+

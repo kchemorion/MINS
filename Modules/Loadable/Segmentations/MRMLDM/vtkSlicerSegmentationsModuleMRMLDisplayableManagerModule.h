@@ -1,0 +1,6 @@
+
+#ifndef __vtkSlicerSegmentationsModuleMRMLDisplayableManagerModule_h
+#define __vtkSlicerSegmentationsModuleMRMLDisplayableManagerModule_h
+#include "vtkSlicerSegmentationsModuleMRMLDisplayableManagerExport.h"
+#endif
+

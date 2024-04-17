@@ -1,0 +1,13 @@
+# Target labels
+ qSlicerTablesModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Tables/Widgets/DesignerPlugins/qSlicerTablesModuleWidgetsAbstractPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Tables/Widgets/DesignerPlugins/qSlicerTablesModuleWidgetsAbstractPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Tables/Widgets/DesignerPlugins/qSlicerTablesModuleWidgetsPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Tables/Widgets/DesignerPlugins/qSlicerTablesModuleWidgetsPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Tables/Widgets/DesignerPlugins/qSlicerTableColumnPropertiesWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Tables/Widgets/DesignerPlugins/qSlicerTableColumnPropertiesWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Tables/Widgets/DesignerPlugins/moc_qSlicerTablesModuleWidgetsPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Tables/Widgets/DesignerPlugins/moc_qSlicerTableColumnPropertiesWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Tables/Widgets/DesignerPlugins/moc_qSlicerTablesModuleWidgetsPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Tables/Widgets/DesignerPlugins/moc_qSlicerTableColumnPropertiesWidgetPlugin.cpp.rule

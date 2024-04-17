@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/generated_cpp/osm_qSlicerSegmentationsModuleWidgets/osm_qSlicerSegmentationsModuleWidgets_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/generated_cpp/osm_qSlicerSegmentationsModuleWidgets/osm_qSlicerSegmentationsModuleWidgets_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/generated_cpp/osm_qSlicerSegmentationsModuleWidgets/moc_osm_qSlicerSegmentationsModuleWidgets.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/generated_cpp/osm_qSlicerSegmentationsModuleWidgets/osm_qSlicerSegmentationsModuleWidgets_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/generated_cpp/osm_qSlicerSegmentationsModuleWidgets/moc_osm_qSlicerSegmentationsModuleWidgets.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerSegmentationsModuleWidgets"
+		],
+		"name" : "qSlicerSegmentationsModuleWidgetsPythonQt"
+	}
+}

@@ -1,0 +1,17 @@
+# Target labels
+ qSlicerPlotsModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qSlicerPlotsModuleWidgetsAbstractPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qSlicerPlotsModuleWidgetsAbstractPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qSlicerPlotsModuleWidgetsPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qSlicerPlotsModuleWidgetsPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qMRMLPlotSeriesPropertiesWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qMRMLPlotSeriesPropertiesWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qMRMLPlotChartPropertiesWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Plots/Widgets/DesignerPlugins/qMRMLPlotChartPropertiesWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/DesignerPlugins/moc_qSlicerPlotsModuleWidgetsPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/DesignerPlugins/moc_qMRMLPlotSeriesPropertiesWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/DesignerPlugins/moc_qMRMLPlotChartPropertiesWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/DesignerPlugins/moc_qSlicerPlotsModuleWidgetsPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/DesignerPlugins/moc_qMRMLPlotSeriesPropertiesWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/DesignerPlugins/moc_qMRMLPlotChartPropertiesWidgetPlugin.cpp.rule

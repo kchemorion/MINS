@@ -1,0 +1,13 @@
+# Target labels
+ qSlicerModelsModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Models/Widgets/DesignerPlugins/qSlicerModelsWidgetsAbstractPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Models/Widgets/DesignerPlugins/qSlicerModelsWidgetsAbstractPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Models/Widgets/DesignerPlugins/qSlicerModelsWidgetsPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Models/Widgets/DesignerPlugins/qSlicerModelsWidgetsPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Models/Widgets/DesignerPlugins/qMRMLModelDisplayNodeWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Models/Widgets/DesignerPlugins/qMRMLModelDisplayNodeWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Models/Widgets/DesignerPlugins/moc_qSlicerModelsWidgetsPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Models/Widgets/DesignerPlugins/moc_qMRMLModelDisplayNodeWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Models/Widgets/DesignerPlugins/moc_qSlicerModelsWidgetsPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Models/Widgets/DesignerPlugins/moc_qMRMLModelDisplayNodeWidgetPlugin.cpp.rule

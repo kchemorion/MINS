@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "../../../lib/MINS-5.6/qt-loadable-modules/libqSlicerDataModule.pdb"
+  "../../../lib/MINS-5.6/qt-loadable-modules/libqSlicerDataModule.so"
+  "CMakeFiles/qSlicerDataModule.dir/moc_qSlicerDataModule.cpp.o"
+  "CMakeFiles/qSlicerDataModule.dir/moc_qSlicerDataModule.cpp.o.d"
+  "CMakeFiles/qSlicerDataModule.dir/moc_qSlicerDataModuleWidget.cpp.o"
+  "CMakeFiles/qSlicerDataModule.dir/moc_qSlicerDataModuleWidget.cpp.o.d"
+  "CMakeFiles/qSlicerDataModule.dir/moc_qSlicerSceneIOOptionsWidget.cpp.o"
+  "CMakeFiles/qSlicerDataModule.dir/moc_qSlicerSceneIOOptionsWidget.cpp.o.d"
+  "CMakeFiles/qSlicerDataModule.dir/moc_qSlicerSceneReader.cpp.o"
+  "CMakeFiles/qSlicerDataModule.dir/moc_qSlicerSceneReader.cpp.o.d"
+  "CMakeFiles/qSlicerDataModule.dir/moc_qSlicerSceneWriter.cpp.o"
+  "CMakeFiles/qSlicerDataModule.dir/moc_qSlicerSceneWriter.cpp.o.d"
+  "CMakeFiles/qSlicerDataModule.dir/qSlicerDataModule.cxx.o"
+  "CMakeFiles/qSlicerDataModule.dir/qSlicerDataModule.cxx.o.d"
+  "CMakeFiles/qSlicerDataModule.dir/qSlicerDataModuleWidget.cxx.o"
+  "CMakeFiles/qSlicerDataModule.dir/qSlicerDataModuleWidget.cxx.o.d"
+  "CMakeFiles/qSlicerDataModule.dir/qSlicerSceneIOOptionsWidget.cxx.o"
+  "CMakeFiles/qSlicerDataModule.dir/qSlicerSceneIOOptionsWidget.cxx.o.d"
+  "CMakeFiles/qSlicerDataModule.dir/qSlicerSceneReader.cxx.o"
+  "CMakeFiles/qSlicerDataModule.dir/qSlicerSceneReader.cxx.o.d"
+  "CMakeFiles/qSlicerDataModule.dir/qSlicerSceneWriter.cxx.o"
+  "CMakeFiles/qSlicerDataModule.dir/qSlicerSceneWriter.cxx.o.d"
+  "CMakeFiles/qSlicerDataModule.dir/qrc_qSlicer.cpp.o"
+  "CMakeFiles/qSlicerDataModule.dir/qrc_qSlicer.cpp.o.d"
+  "CMakeFiles/qSlicerDataModule.dir/qrc_qSlicerDataModule.cpp.o"
+  "CMakeFiles/qSlicerDataModule.dir/qrc_qSlicerDataModule.cpp.o.d"
+  "moc_qSlicerDataModule.cpp"
+  "moc_qSlicerDataModuleWidget.cpp"
+  "moc_qSlicerSceneIOOptionsWidget.cpp"
+  "moc_qSlicerSceneReader.cpp"
+  "moc_qSlicerSceneWriter.cpp"
+  "qrc_qSlicer.cpp"
+  "qrc_qSlicerDataModule.cpp"
+  "ui_qSlicerDataModuleWidget.h"
+  "ui_qSlicerSceneIOOptionsWidget.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/qSlicerDataModule.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

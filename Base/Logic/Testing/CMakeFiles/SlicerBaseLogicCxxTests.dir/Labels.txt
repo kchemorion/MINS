@@ -1,0 +1,7 @@
+# Target labels
+ SlicerBaseLogic
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/Logic/Testing/SlicerBaseLogicCxxTests.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/Testing/vtkDataIOManagerLogicTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/Testing/vtkSlicerApplicationLogicTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/Testing/vtkSlicerVersionConfigureTest1.cxx

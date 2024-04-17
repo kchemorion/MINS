@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/CLI/ResampleScalarVectorDWIVolume/ResampleScalarVectorDWIVolumeCLP.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/itkWarpTransform3D.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/itkWarpTransform3D.txx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/itkTransformDeformationFieldFilter.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/itkTransformDeformationFieldFilter.txx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/dtiprocessFiles/deformationfieldio.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/dtiprocessFiles/deformationfieldio.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/dtiprocessFiles/dtitypes.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/dtiprocessFiles/itkHFieldToDeformationFieldImageFilter.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/dtiprocessFiles/itkHFieldToDeformationFieldImageFilter.txx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleScalarVectorDWIVolume/ResampleScalarVectorDWIVolume.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/CLI/ResampleScalarVectorDWIVolume/ResampleScalarVectorDWIVolumeCLP.h.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ResampleScalarVectorDWIVolume"
+		],
+		"name" : "ResampleScalarVectorDWIVolumeLib"
+	}
+}

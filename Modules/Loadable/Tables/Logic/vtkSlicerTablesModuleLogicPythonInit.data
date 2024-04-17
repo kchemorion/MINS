@@ -1,0 +1,14 @@
+vtkSlicerTablesModuleLogicPython
+vtkSlicerTablesLogic
+vtkSlicerTablesLogic
+DEPENDS
+qSlicerBaseQTCLIPython
+MRMLCLIPython
+MRMLCorePython
+vtkAddonPython
+vtkITKPython
+vtkSegmentationCorePython
+vtkTeemPython
+SlicerBaseLogicPython
+MRMLLogicPython
+MRMLDisplayableManagerPython

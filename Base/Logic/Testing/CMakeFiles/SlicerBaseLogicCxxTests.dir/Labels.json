@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/Logic/Testing/SlicerBaseLogicCxxTests.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/Testing/vtkDataIOManagerLogicTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/Testing/vtkSlicerApplicationLogicTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/Logic/Testing/vtkSlicerVersionConfigureTest1.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SlicerBaseLogic"
+		],
+		"name" : "SlicerBaseLogicCxxTests"
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/Testing/Cxx/qSlicerBaseQTGUICxxTests.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerAbstractModuleTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerAbstractModuleWidgetTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerApplicationTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerDataDialogTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerDirectoryListViewTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerLayoutManagerTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerModulePanelTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerMouseModeToolBarTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerSaveDataDialogCustomFileWriterTest.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerWidgetTest1.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerWidgetTest2.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerLoadableModuleWithPythonTest.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerPythonManagerWithoutApplicationTest.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerScriptedLoadableModuleTest.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerScriptedLoadableModuleWidgetTest.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/Testing/Cxx/qrc_qSlicerBaseQTGUITesting.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/Testing/Cxx/moc_qSlicerLoadableModuleWithPythonTest.cxx.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/Testing/Cxx/moc_qSlicerPythonManagerWithoutApplicationTest.cxx.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/Testing/Cxx/moc_qSlicerScriptedLoadableModuleTest.cxx.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/Testing/Cxx/moc_qSlicerScriptedLoadableModuleWidgetTest.cxx.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/Resources/qSlicerBaseQTGUITesting.qrc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerBaseQTGUI"
+		],
+		"name" : "qSlicerBaseQTGUICxxTests"
+	}
+}

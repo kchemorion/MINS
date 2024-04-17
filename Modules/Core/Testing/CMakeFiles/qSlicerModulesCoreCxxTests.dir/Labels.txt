@@ -1,0 +1,9 @@
+# Target labels
+ qSlicerModulesCore
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Core/Testing/qSlicerModulesCoreCxxTests.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Core/Testing/qSlicerCoreModuleTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Core/Testing/qSlicerCoreModuleFactoryTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Core/Testing/qSlicerModulePanelTest2.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Core/Testing/qSlicerEventBrokerModuleGenericTest.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Core/Testing/qSlicerEventBrokerModuleWidgetGenericTest.cxx

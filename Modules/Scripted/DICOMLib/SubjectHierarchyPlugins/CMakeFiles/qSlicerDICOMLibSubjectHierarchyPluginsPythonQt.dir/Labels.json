@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerDICOMLibSubjectHierarchyPlugins/osm_qSlicerDICOMLibSubjectHierarchyPlugins_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerDICOMLibSubjectHierarchyPlugins/osm_qSlicerDICOMLibSubjectHierarchyPlugins_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerDICOMLibSubjectHierarchyPlugins/moc_osm_qSlicerDICOMLibSubjectHierarchyPlugins.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerDICOMLibSubjectHierarchyPlugins/osm_qSlicerDICOMLibSubjectHierarchyPlugins_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerDICOMLibSubjectHierarchyPlugins/moc_osm_qSlicerDICOMLibSubjectHierarchyPlugins.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerDICOMLibSubjectHierarchyPlugins"
+		],
+		"name" : "qSlicerDICOMLibSubjectHierarchyPluginsPythonQt"
+	}
+}

@@ -1,0 +1,17 @@
+# Target labels
+ qSlicerSubjectHierarchyModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/qSlicerSubjectHierarchyModuleWidgetsAbstractPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/qSlicerSubjectHierarchyModuleWidgetsAbstractPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/qSlicerSubjectHierarchyModuleWidgetsPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/qSlicerSubjectHierarchyModuleWidgetsPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/qMRMLSubjectHierarchyTreeViewPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/qMRMLSubjectHierarchyTreeViewPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/qMRMLSubjectHierarchyComboBoxPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/qMRMLSubjectHierarchyComboBoxPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/moc_qSlicerSubjectHierarchyModuleWidgetsPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/moc_qMRMLSubjectHierarchyTreeViewPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/moc_qMRMLSubjectHierarchyComboBoxPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/moc_qSlicerSubjectHierarchyModuleWidgetsPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/moc_qMRMLSubjectHierarchyTreeViewPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/moc_qMRMLSubjectHierarchyComboBoxPlugin.cpp.rule

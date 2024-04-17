@@ -1,0 +1,6 @@
+
+#ifndef __vtkSlicerMarkupsModuleMRMLDisplayableManagerModule_h
+#define __vtkSlicerMarkupsModuleMRMLDisplayableManagerModule_h
+#include "vtkSlicerMarkupsModuleMRMLDisplayableManagerExport.h"
+#endif
+

@@ -1,0 +1,7 @@
+# Target labels
+ qSlicerColorsModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Colors/Widgets/DesignerPlugins/qMRMLColorLegendDisplayNodeWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Colors/Widgets/DesignerPlugins/qMRMLColorLegendDisplayNodeWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/Widgets/DesignerPlugins/moc_qMRMLColorLegendDisplayNodeWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/Widgets/DesignerPlugins/moc_qMRMLColorLegendDisplayNodeWidgetPlugin.cpp.rule

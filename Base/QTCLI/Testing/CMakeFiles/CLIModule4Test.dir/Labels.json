@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/SlicerExecutionModel/CMake/SEMCommandLineLibraryWrapper.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"CLIModule4Test"
+		],
+		"name" : "CLIModule4Test"
+	}
+}

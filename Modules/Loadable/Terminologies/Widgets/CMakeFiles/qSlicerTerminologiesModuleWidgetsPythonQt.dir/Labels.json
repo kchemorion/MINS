@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Terminologies/Widgets/generated_cpp/osm_qSlicerTerminologiesModuleWidgets/osm_qSlicerTerminologiesModuleWidgets_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Terminologies/Widgets/generated_cpp/osm_qSlicerTerminologiesModuleWidgets/osm_qSlicerTerminologiesModuleWidgets_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Terminologies/Widgets/generated_cpp/osm_qSlicerTerminologiesModuleWidgets/moc_osm_qSlicerTerminologiesModuleWidgets.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Terminologies/Widgets/generated_cpp/osm_qSlicerTerminologiesModuleWidgets/osm_qSlicerTerminologiesModuleWidgets_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Terminologies/Widgets/generated_cpp/osm_qSlicerTerminologiesModuleWidgets/moc_osm_qSlicerTerminologiesModuleWidgets.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerTerminologiesModuleWidgets"
+		],
+		"name" : "qSlicerTerminologiesModuleWidgetsPythonQt"
+	}
+}

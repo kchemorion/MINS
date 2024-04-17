@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "../../../../lib/MINS-5.6/qt-loadable-modules/qSlicerSegmentationsSubjectHierarchyPluginsPythonQt.pdb"
+  "../../../../lib/MINS-5.6/qt-loadable-modules/qSlicerSegmentationsSubjectHierarchyPluginsPythonQt.so"
+  "CMakeFiles/qSlicerSegmentationsSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerSegmentationsSubjectHierarchyPlugins/moc_osm_qSlicerSegmentationsSubjectHierarchyPlugins.cpp.o"
+  "CMakeFiles/qSlicerSegmentationsSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerSegmentationsSubjectHierarchyPlugins/moc_osm_qSlicerSegmentationsSubjectHierarchyPlugins.cpp.o.d"
+  "CMakeFiles/qSlicerSegmentationsSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerSegmentationsSubjectHierarchyPlugins/osm_qSlicerSegmentationsSubjectHierarchyPlugins_init.cpp.o"
+  "CMakeFiles/qSlicerSegmentationsSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerSegmentationsSubjectHierarchyPlugins/osm_qSlicerSegmentationsSubjectHierarchyPlugins_init.cpp.o.d"
+  "CMakeFiles/qSlicerSegmentationsSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerSegmentationsSubjectHierarchyPlugins/osm_qSlicerSegmentationsSubjectHierarchyPlugins_module_init.cpp.o"
+  "CMakeFiles/qSlicerSegmentationsSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerSegmentationsSubjectHierarchyPlugins/osm_qSlicerSegmentationsSubjectHierarchyPlugins_module_init.cpp.o.d"
+  "generated_cpp/osm_qSlicerSegmentationsSubjectHierarchyPlugins/moc_osm_qSlicerSegmentationsSubjectHierarchyPlugins.cpp"
+  "generated_cpp/osm_qSlicerSegmentationsSubjectHierarchyPlugins/osm_qSlicerSegmentationsSubjectHierarchyPlugins.h"
+  "generated_cpp/osm_qSlicerSegmentationsSubjectHierarchyPlugins/osm_qSlicerSegmentationsSubjectHierarchyPlugins_init.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/qSlicerSegmentationsSubjectHierarchyPluginsPythonQt.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,11 @@
+# Target labels
+ qSlicerTextsSubjectHierarchyPlugins
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/SubjectHierarchyPlugins/qSlicerSubjectHierarchyTextsPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/SubjectHierarchyPlugins/qSlicerSubjectHierarchyTextsPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/SubjectHierarchyPlugins/moc_qSlicerSubjectHierarchyTextsPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/SubjectHierarchyPlugins/qrc_qSlicerTextsSubjectHierarchyPlugins.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/SubjectHierarchyPlugins/qrc_qSlicer.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/SubjectHierarchyPlugins/moc_qSlicerSubjectHierarchyTextsPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Texts/SubjectHierarchyPlugins/Resources/qSlicerTextsSubjectHierarchyPlugins.qrc
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Resources/qSlicer.qrc

@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "../../../../lib/MINS-5.6/qt-loadable-modules/qSlicerVolumeRenderingSubjectHierarchyPluginsPythonQt.pdb"
+  "../../../../lib/MINS-5.6/qt-loadable-modules/qSlicerVolumeRenderingSubjectHierarchyPluginsPythonQt.so"
+  "CMakeFiles/qSlicerVolumeRenderingSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/moc_osm_qSlicerVolumeRenderingSubjectHierarchyPlugins.cpp.o"
+  "CMakeFiles/qSlicerVolumeRenderingSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/moc_osm_qSlicerVolumeRenderingSubjectHierarchyPlugins.cpp.o.d"
+  "CMakeFiles/qSlicerVolumeRenderingSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins_init.cpp.o"
+  "CMakeFiles/qSlicerVolumeRenderingSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins_init.cpp.o.d"
+  "CMakeFiles/qSlicerVolumeRenderingSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins_module_init.cpp.o"
+  "CMakeFiles/qSlicerVolumeRenderingSubjectHierarchyPluginsPythonQt.dir/generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins_module_init.cpp.o.d"
+  "generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/moc_osm_qSlicerVolumeRenderingSubjectHierarchyPlugins.cpp"
+  "generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins.h"
+  "generated_cpp/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins/osm_qSlicerVolumeRenderingSubjectHierarchyPlugins_init.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/qSlicerVolumeRenderingSubjectHierarchyPluginsPythonQt.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

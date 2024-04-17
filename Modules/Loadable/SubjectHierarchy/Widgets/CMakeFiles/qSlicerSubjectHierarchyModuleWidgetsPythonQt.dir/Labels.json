@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/SubjectHierarchy/Widgets/generated_cpp/osm_qSlicerSubjectHierarchyModuleWidgets/osm_qSlicerSubjectHierarchyModuleWidgets_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/SubjectHierarchy/Widgets/generated_cpp/osm_qSlicerSubjectHierarchyModuleWidgets/osm_qSlicerSubjectHierarchyModuleWidgets_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/SubjectHierarchy/Widgets/generated_cpp/osm_qSlicerSubjectHierarchyModuleWidgets/moc_osm_qSlicerSubjectHierarchyModuleWidgets.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/SubjectHierarchy/Widgets/qSlicerSubjectHierarchyModuleWidgetsPythonQtDecorators.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/SubjectHierarchy/Widgets/moc_qSlicerSubjectHierarchyModuleWidgetsPythonQtDecorators.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/SubjectHierarchy/Widgets/generated_cpp/osm_qSlicerSubjectHierarchyModuleWidgets/osm_qSlicerSubjectHierarchyModuleWidgets_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/SubjectHierarchy/Widgets/generated_cpp/osm_qSlicerSubjectHierarchyModuleWidgets/moc_osm_qSlicerSubjectHierarchyModuleWidgets.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/SubjectHierarchy/Widgets/moc_qSlicerSubjectHierarchyModuleWidgetsPythonQtDecorators.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerSubjectHierarchyModuleWidgets"
+		],
+		"name" : "qSlicerSubjectHierarchyModuleWidgetsPythonQt"
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qSlicerSequencesModuleWidgetsAbstractPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qSlicerSequencesModuleWidgetsAbstractPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qSlicerSequencesModuleWidgetsPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qSlicerSequencesModuleWidgetsPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceBrowserPlayWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceBrowserPlayWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceBrowserSeekWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceBrowserSeekWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceBrowserToolBarPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceBrowserToolBarPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceEditWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceEditWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qSlicerSequencesModuleWidgetsPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceBrowserPlayWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceBrowserSeekWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceBrowserToolBarPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceEditWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qSlicerSequencesModuleWidgetsPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceBrowserPlayWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceBrowserSeekWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceBrowserToolBarPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceEditWidgetPlugin.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerSequencesModuleWidgets"
+		],
+		"name" : "qSlicerSequencesModuleWidgetsPlugins"
+	}
+}

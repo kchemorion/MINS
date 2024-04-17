@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/generated_cpp/osm_qSlicerVolumesModuleWidgets/osm_qSlicerVolumesModuleWidgets_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/generated_cpp/osm_qSlicerVolumesModuleWidgets/osm_qSlicerVolumesModuleWidgets_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/generated_cpp/osm_qSlicerVolumesModuleWidgets/moc_osm_qSlicerVolumesModuleWidgets.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/generated_cpp/osm_qSlicerVolumesModuleWidgets/osm_qSlicerVolumesModuleWidgets_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/generated_cpp/osm_qSlicerVolumesModuleWidgets/moc_osm_qSlicerVolumesModuleWidgets.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerVolumesModuleWidgets"
+		],
+		"name" : "qSlicerVolumesModuleWidgetsPythonQt"
+	}
+}

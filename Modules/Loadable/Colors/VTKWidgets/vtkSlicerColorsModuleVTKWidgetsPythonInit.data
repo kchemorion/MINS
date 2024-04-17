@@ -1,0 +1,14 @@
+vtkSlicerColorsModuleVTKWidgetsPython
+vtkSlicerScalarBarActor
+vtkSlicerScalarBarActor
+DEPENDS
+qSlicerBaseQTCLIPython
+MRMLCLIPython
+MRMLCorePython
+vtkAddonPython
+vtkITKPython
+vtkSegmentationCorePython
+vtkTeemPython
+SlicerBaseLogicPython
+MRMLLogicPython
+MRMLDisplayableManagerPython

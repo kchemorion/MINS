@@ -1,0 +1,14 @@
+# CMake generated Testfile for 
+# Source directory: /home/blvksh33p/Documents/Slicer-SuperBuild-Debug/vtkAddon/Testing
+# Build directory: /home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/vtkAddon/Testing
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(vtkAddonMathUtilitiesTest1 "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/MINS" "--launch" "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/bin/vtkAddonCxxTests" "vtkAddonMathUtilitiesTest1")
+set_tests_properties(vtkAddonMathUtilitiesTest1 PROPERTIES  LABELS "vtkAddon" _BACKTRACE_TRIPLES "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/vtkAddon/Testing/CMakeLists.txt;19;add_test;/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/vtkAddon/Testing/CMakeLists.txt;23;vtkaddon_add_test;/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/vtkAddon/Testing/CMakeLists.txt;0;")
+add_test(vtkAddonTestingUtilitiesTest1 "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/MINS" "--launch" "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/bin/vtkAddonCxxTests" "vtkAddonTestingUtilitiesTest1")
+set_tests_properties(vtkAddonTestingUtilitiesTest1 PROPERTIES  LABELS "vtkAddon" _BACKTRACE_TRIPLES "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/vtkAddon/Testing/CMakeLists.txt;19;add_test;/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/vtkAddon/Testing/CMakeLists.txt;24;vtkaddon_add_test;/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/vtkAddon/Testing/CMakeLists.txt;0;")
+add_test(vtkLoggingMacrosTest1 "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/MINS" "--launch" "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/bin/vtkAddonCxxTests" "vtkLoggingMacrosTest1")
+set_tests_properties(vtkLoggingMacrosTest1 PROPERTIES  LABELS "vtkAddon" _BACKTRACE_TRIPLES "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/vtkAddon/Testing/CMakeLists.txt;19;add_test;/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/vtkAddon/Testing/CMakeLists.txt;25;vtkaddon_add_test;/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/vtkAddon/Testing/CMakeLists.txt;0;")
+add_test(vtkPersonInformationTest1 "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/MINS" "--launch" "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/bin/vtkAddonCxxTests" "vtkPersonInformationTest1")
+set_tests_properties(vtkPersonInformationTest1 PROPERTIES  LABELS "vtkAddon" _BACKTRACE_TRIPLES "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/vtkAddon/Testing/CMakeLists.txt;19;add_test;/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/vtkAddon/Testing/CMakeLists.txt;26;vtkaddon_add_test;/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/vtkAddon/Testing/CMakeLists.txt;0;")

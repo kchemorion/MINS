@@ -1,0 +1,1 @@
+/home/blvksh33p/.local/bin/c++ -fPIC -shared -Wl,-soname,libB.so -o libB.so CMakeFiles/B.dir/B.cxx.o 

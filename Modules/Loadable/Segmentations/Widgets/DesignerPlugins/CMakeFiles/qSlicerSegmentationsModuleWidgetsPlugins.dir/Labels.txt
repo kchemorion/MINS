@@ -1,0 +1,41 @@
+# Target labels
+ qSlicerSegmentationsModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qSlicerSegmentationsModuleWidgetsAbstractPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qSlicerSegmentationsModuleWidgetsAbstractPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qSlicerSegmentationsModuleWidgetsPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qSlicerSegmentationsModuleWidgetsPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentsTableViewPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentsTableViewPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentationRepresentationsListViewPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentationRepresentationsListViewPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentationConversionParametersWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentationConversionParametersWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentationShow3DButtonPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentationShow3DButtonPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentSelectorWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentSelectorWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentEditorWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentEditorWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentationDisplayNodeWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentationDisplayNodeWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentationFileExportWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentationFileExportWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qSlicerSegmentationsModuleWidgetsPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentsTableViewPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentationRepresentationsListViewPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentationConversionParametersWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentSelectorWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentEditorWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentationDisplayNodeWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentationFileExportWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentationShow3DButtonPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qSlicerSegmentationsModuleWidgetsPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentsTableViewPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentationRepresentationsListViewPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentationConversionParametersWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentSelectorWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentEditorWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentationDisplayNodeWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentationFileExportWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Segmentations/Widgets/DesignerPlugins/moc_qMRMLSegmentationShow3DButtonPlugin.cpp.rule

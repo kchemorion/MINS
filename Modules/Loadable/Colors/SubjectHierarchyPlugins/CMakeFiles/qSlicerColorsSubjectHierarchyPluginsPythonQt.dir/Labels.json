@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerColorsSubjectHierarchyPlugins/osm_qSlicerColorsSubjectHierarchyPlugins_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerColorsSubjectHierarchyPlugins/osm_qSlicerColorsSubjectHierarchyPlugins_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerColorsSubjectHierarchyPlugins/moc_osm_qSlicerColorsSubjectHierarchyPlugins.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerColorsSubjectHierarchyPlugins/osm_qSlicerColorsSubjectHierarchyPlugins_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Colors/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerColorsSubjectHierarchyPlugins/moc_osm_qSlicerColorsSubjectHierarchyPlugins.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerColorsSubjectHierarchyPlugins"
+		],
+		"name" : "qSlicerColorsSubjectHierarchyPluginsPythonQt"
+	}
+}

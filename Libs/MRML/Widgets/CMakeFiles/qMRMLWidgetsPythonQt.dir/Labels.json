@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/generated_cpp/org_slicer_libs_qMRMLWidgets/org_slicer_libs_qMRMLWidgets_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/generated_cpp/org_slicer_libs_qMRMLWidgets/org_slicer_libs_qMRMLWidgets_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/generated_cpp/org_slicer_libs_qMRMLWidgets/moc_org_slicer_libs_qMRMLWidgets.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/generated_cpp/org_slicer_libs_qMRMLWidgets/org_slicer_libs_qMRMLWidgets_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/generated_cpp/org_slicer_libs_qMRMLWidgets/moc_org_slicer_libs_qMRMLWidgets.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qMRMLWidgets"
+		],
+		"name" : "qMRMLWidgetsPythonQt"
+	}
+}

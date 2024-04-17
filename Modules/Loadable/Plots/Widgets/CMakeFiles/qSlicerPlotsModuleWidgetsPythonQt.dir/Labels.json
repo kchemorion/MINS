@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/generated_cpp/osm_qSlicerPlotsModuleWidgets/osm_qSlicerPlotsModuleWidgets_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/generated_cpp/osm_qSlicerPlotsModuleWidgets/osm_qSlicerPlotsModuleWidgets_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/generated_cpp/osm_qSlicerPlotsModuleWidgets/moc_osm_qSlicerPlotsModuleWidgets.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/generated_cpp/osm_qSlicerPlotsModuleWidgets/osm_qSlicerPlotsModuleWidgets_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Plots/Widgets/generated_cpp/osm_qSlicerPlotsModuleWidgets/moc_osm_qSlicerPlotsModuleWidgets.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerPlotsModuleWidgets"
+		],
+		"name" : "qSlicerPlotsModuleWidgetsPythonQt"
+	}
+}

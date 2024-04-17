@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "../../bin/SlicerBaseLogicPython.pdb"
+  "../../bin/SlicerBaseLogicPython.so"
+  "CMakeFiles/SlicerBaseLogicPython.dir/SlicerBaseLogicPythonInit.cxx.o"
+  "CMakeFiles/SlicerBaseLogicPython.dir/SlicerBaseLogicPythonInit.cxx.o.d"
+  "CMakeFiles/SlicerBaseLogicPython.dir/SlicerBaseLogicPythonInitImpl.cxx.o"
+  "CMakeFiles/SlicerBaseLogicPython.dir/SlicerBaseLogicPythonInitImpl.cxx.o.d"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkDataIOManagerLogicPython.cxx.o"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkDataIOManagerLogicPython.cxx.o.d"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkImageFillROIPython.cxx.o"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkImageFillROIPython.cxx.o.d"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkImageRectangularSourcePython.cxx.o"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkImageRectangularSourcePython.cxx.o.d"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkSlicerApplicationLogicPython.cxx.o"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkSlicerApplicationLogicPython.cxx.o.d"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkSlicerModuleLogicPython.cxx.o"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkSlicerModuleLogicPython.cxx.o.d"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkSlicerScriptedLoadableModuleLogicPython.cxx.o"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkSlicerScriptedLoadableModuleLogicPython.cxx.o.d"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkSlicerTaskPython.cxx.o"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkSlicerTaskPython.cxx.o.d"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkSystemInformationPython.cxx.o"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkSystemInformationPython.cxx.o.d"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkTransformVisualizerGlyph3DPython.cxx.o"
+  "CMakeFiles/SlicerBaseLogicPython.dir/vtkTransformVisualizerGlyph3DPython.cxx.o.d"
+  "SlicerBaseLogicPythonInit.cxx"
+  "SlicerBaseLogicPythonInitImpl.cxx"
+  "vtkDataIOManagerLogicPython.cxx"
+  "vtkImageFillROIPython.cxx"
+  "vtkImageRectangularSourcePython.cxx"
+  "vtkSlicerApplicationLogicPython.cxx"
+  "vtkSlicerModuleLogicPython.cxx"
+  "vtkSlicerScriptedLoadableModuleLogicPython.cxx"
+  "vtkSlicerTaskPython.cxx"
+  "vtkSystemInformationPython.cxx"
+  "vtkTransformVisualizerGlyph3DPython.cxx"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/SlicerBaseLogicPython.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

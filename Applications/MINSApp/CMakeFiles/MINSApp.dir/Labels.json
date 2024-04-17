@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/MINS/Applications/MINSApp/Main.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"MINSApp"
+		],
+		"name" : "MINSApp"
+	}
+}

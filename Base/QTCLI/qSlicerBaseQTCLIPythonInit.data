@@ -1,0 +1,12 @@
+qSlicerBaseQTCLIPython
+vtkSlicerCLIModuleLogic
+vtkSlicerCLIModuleLogic
+DEPENDS
+MRMLCLIPython
+MRMLCorePython
+vtkAddonPython
+vtkITKPython
+vtkSegmentationCorePython
+vtkTeemPython
+SlicerBaseLogicPython
+MRMLLogicPython

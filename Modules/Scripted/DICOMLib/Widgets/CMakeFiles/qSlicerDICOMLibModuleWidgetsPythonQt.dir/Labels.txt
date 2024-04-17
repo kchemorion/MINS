@@ -1,0 +1,8 @@
+# Target labels
+ qSlicerDICOMLibModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/generated_cpp/osm_qSlicerDICOMLibModuleWidgets/osm_qSlicerDICOMLibModuleWidgets_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/generated_cpp/osm_qSlicerDICOMLibModuleWidgets/osm_qSlicerDICOMLibModuleWidgets_module_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/generated_cpp/osm_qSlicerDICOMLibModuleWidgets/moc_osm_qSlicerDICOMLibModuleWidgets.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/generated_cpp/osm_qSlicerDICOMLibModuleWidgets/osm_qSlicerDICOMLibModuleWidgets_init.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Scripted/DICOMLib/Widgets/generated_cpp/osm_qSlicerDICOMLibModuleWidgets/moc_osm_qSlicerDICOMLibModuleWidgets.cpp.rule

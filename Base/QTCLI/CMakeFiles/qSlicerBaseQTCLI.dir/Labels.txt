@@ -1,0 +1,36 @@
+# Target labels
+ qSlicerBaseQTCLI
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/vtkSlicerCLIModuleLogic.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/vtkSlicerCLIModuleLogic.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLIExecutableModuleFactory.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLIExecutableModuleFactory.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLILoadableModuleFactory.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLILoadableModuleFactory.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLIModule.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLIModule.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLIModuleFactoryHelper.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLIModuleFactoryHelper.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLIModuleUIHelper.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLIModuleUIHelper.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLIModuleWidget.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLIModuleWidget.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLIModuleWidget_p.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLIProgressBar.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/qSlicerCLIProgressBar.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/moc_qSlicerCLIModule.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/moc_qSlicerCLIModuleWidget.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/moc_qSlicerCLIModuleWidget_p.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/moc_qSlicerCLIModuleUIHelper.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/moc_qSlicerCLIProgressBar.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/ui_qSlicerCLIModuleWidget.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/qrc_qSlicer.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/qSlicerBaseQTCLIHierarchy.txt
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/moc_qSlicerCLIModule.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/moc_qSlicerCLIModuleWidget.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/moc_qSlicerCLIModuleWidget_p.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/moc_qSlicerCLIModuleUIHelper.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/moc_qSlicerCLIProgressBar.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/Resources/UI/qSlicerCLIModuleWidget.ui
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Resources/qSlicer.qrc
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/qSlicerBaseQTCLIHierarchy.stamp.txt.rule

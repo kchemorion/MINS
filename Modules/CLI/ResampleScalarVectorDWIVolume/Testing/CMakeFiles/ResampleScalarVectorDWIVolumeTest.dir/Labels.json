@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleScalarVectorDWIVolume/Testing/ResampleScalarVectorDWIVolumeTest.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ResampleScalarVectorDWIVolume"
+		],
+		"name" : "ResampleScalarVectorDWIVolumeTest"
+	}
+}

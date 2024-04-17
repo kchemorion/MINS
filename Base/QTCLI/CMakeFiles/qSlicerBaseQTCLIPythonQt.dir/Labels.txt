@@ -1,0 +1,8 @@
+# Target labels
+ qSlicerBaseQTCLI
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/generated_cpp/osb_qSlicerBaseQTCLI/osb_qSlicerBaseQTCLI_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/generated_cpp/osb_qSlicerBaseQTCLI/osb_qSlicerBaseQTCLI_module_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/generated_cpp/osb_qSlicerBaseQTCLI/moc_osb_qSlicerBaseQTCLI.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/generated_cpp/osb_qSlicerBaseQTCLI/osb_qSlicerBaseQTCLI_init.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/generated_cpp/osb_qSlicerBaseQTCLI/moc_osb_qSlicerBaseQTCLI.cpp.rule

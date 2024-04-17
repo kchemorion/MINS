@@ -1,0 +1,15 @@
+vtkSlicerSegmentationsModuleMRMLPython
+vtkMRMLSegmentEditorNode
+vtkMRMLSegmentEditorNode
+DEPENDS
+MRMLCorePython
+vtkAddonPython
+vtkITKPython
+vtkSegmentationCorePython
+vtkTeemPython
+vtkSlicerSubjectHierarchyModuleLogicPython
+qSlicerBaseQTCLIPython
+MRMLCLIPython
+SlicerBaseLogicPython
+MRMLLogicPython
+MRMLDisplayableManagerPython

@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/CLI/ResampleDTIVolume/ResampleDTIVolumeCLP.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/dtiprocessFiles/deformationfieldio.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/dtiprocessFiles/deformationfieldio.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/dtiprocessFiles/itkHFieldToDeformationFieldImageFilter.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/dtiprocessFiles/itkHFieldToDeformationFieldImageFilter.txx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/ResampleDTIVolume.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/CLI/ResampleDTIVolume/ResampleDTIVolumeCLP.h.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ResampleDTIVolume"
+		],
+		"name" : "ResampleDTIVolumeLib"
+	}
+}

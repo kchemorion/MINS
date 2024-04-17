@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerMarkupsSubjectHierarchyPlugins/osm_qSlicerMarkupsSubjectHierarchyPlugins_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerMarkupsSubjectHierarchyPlugins/osm_qSlicerMarkupsSubjectHierarchyPlugins_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerMarkupsSubjectHierarchyPlugins/moc_osm_qSlicerMarkupsSubjectHierarchyPlugins.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerMarkupsSubjectHierarchyPlugins/osm_qSlicerMarkupsSubjectHierarchyPlugins_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerMarkupsSubjectHierarchyPlugins/moc_osm_qSlicerMarkupsSubjectHierarchyPlugins.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerMarkupsSubjectHierarchyPlugins"
+		],
+		"name" : "qSlicerMarkupsSubjectHierarchyPluginsPythonQt"
+	}
+}

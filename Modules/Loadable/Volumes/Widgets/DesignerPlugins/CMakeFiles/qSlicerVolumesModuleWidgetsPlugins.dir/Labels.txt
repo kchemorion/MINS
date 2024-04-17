@@ -1,0 +1,33 @@
+# Target labels
+ qSlicerVolumesModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerVolumesModuleWidgetsAbstractPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerVolumesModuleWidgetsAbstractPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerVolumesModuleWidgetsPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerVolumesModuleWidgetsPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerDiffusionTensorVolumeDisplayWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerDiffusionTensorVolumeDisplayWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerDiffusionWeightedVolumeDisplayWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerDiffusionWeightedVolumeDisplayWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerDTISliceDisplayWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerDTISliceDisplayWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerLabelMapVolumeDisplayWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerLabelMapVolumeDisplayWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerScalarVolumeDisplayWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerScalarVolumeDisplayWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerVolumeDisplayWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerVolumeDisplayWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerVolumesModuleWidgetsPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerDiffusionTensorVolumeDisplayWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerDiffusionWeightedVolumeDisplayWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerDTISliceDisplayWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerLabelMapVolumeDisplayWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerScalarVolumeDisplayWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerVolumeDisplayWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerVolumesModuleWidgetsPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerDiffusionTensorVolumeDisplayWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerDiffusionWeightedVolumeDisplayWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerDTISliceDisplayWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerLabelMapVolumeDisplayWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerScalarVolumeDisplayWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Volumes/Widgets/DesignerPlugins/moc_qSlicerVolumeDisplayWidgetPlugin.cpp.rule

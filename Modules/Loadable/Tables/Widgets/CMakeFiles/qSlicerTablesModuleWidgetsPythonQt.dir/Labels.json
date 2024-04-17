@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Tables/Widgets/generated_cpp/osm_qSlicerTablesModuleWidgets/osm_qSlicerTablesModuleWidgets_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Tables/Widgets/generated_cpp/osm_qSlicerTablesModuleWidgets/osm_qSlicerTablesModuleWidgets_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Tables/Widgets/generated_cpp/osm_qSlicerTablesModuleWidgets/moc_osm_qSlicerTablesModuleWidgets.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Tables/Widgets/generated_cpp/osm_qSlicerTablesModuleWidgets/osm_qSlicerTablesModuleWidgets_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Tables/Widgets/generated_cpp/osm_qSlicerTablesModuleWidgets/moc_osm_qSlicerTablesModuleWidgets.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerTablesModuleWidgets"
+		],
+		"name" : "qSlicerTablesModuleWidgetsPythonQt"
+	}
+}

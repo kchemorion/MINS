@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/Testing/CLIModule4TestCLP.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/Testing/CLIModule4Test.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/Testing/CLIModule4TestCLP.h.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"CLIModule4Test"
+		],
+		"name" : "CLIModule4TestLib"
+	}
+}

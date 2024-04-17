@@ -1,0 +1,6 @@
+vtkTeemPython
+vtkDiffusionTensorMathematics
+vtkDiffusionTensorGlyph
+vtkTeemNRRDReader
+vtkTeemNRRDWriter
+vtkImageLabelCombine

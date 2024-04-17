@@ -1,0 +1,4 @@
+# Target labels
+ MINSApp
+# Source files and their labels
+/home/blvksh33p/Documents/MINS/Applications/MINSApp/Main.cxx

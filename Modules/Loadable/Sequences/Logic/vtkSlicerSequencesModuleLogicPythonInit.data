@@ -1,0 +1,15 @@
+vtkSlicerSequencesModuleLogicPython
+vtkSlicerSequencesLogic
+vtkSlicerSequencesLogic
+DEPENDS
+vtkSlicerSequencesModuleMRMLPython
+MRMLCorePython
+vtkAddonPython
+vtkITKPython
+vtkSegmentationCorePython
+vtkTeemPython
+MRMLLogicPython
+MRMLDisplayableManagerPython
+MRMLCLIPython
+SlicerBaseLogicPython
+qSlicerBaseQTCLIPython

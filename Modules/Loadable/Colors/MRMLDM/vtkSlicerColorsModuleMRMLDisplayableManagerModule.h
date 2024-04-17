@@ -1,0 +1,6 @@
+
+#ifndef __vtkSlicerColorsModuleMRMLDisplayableManagerModule_h
+#define __vtkSlicerColorsModuleMRMLDisplayableManagerModule_h
+#include "vtkSlicerColorsModuleMRMLDisplayableManagerExport.h"
+#endif
+

@@ -1,0 +1,10 @@
+# Target labels
+ ResampleDTIVolume
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/CLI/ResampleDTIVolume/ResampleDTIVolumeCLP.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/dtiprocessFiles/deformationfieldio.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/dtiprocessFiles/deformationfieldio.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/dtiprocessFiles/itkHFieldToDeformationFieldImageFilter.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/dtiprocessFiles/itkHFieldToDeformationFieldImageFilter.txx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/CLI/ResampleDTIVolume/ResampleDTIVolume.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/CLI/ResampleDTIVolume/ResampleDTIVolumeCLP.h.rule

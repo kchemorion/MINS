@@ -1,0 +1,25 @@
+# Target labels
+ qSlicerSequencesModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qSlicerSequencesModuleWidgetsAbstractPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qSlicerSequencesModuleWidgetsAbstractPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qSlicerSequencesModuleWidgetsPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qSlicerSequencesModuleWidgetsPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceBrowserPlayWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceBrowserPlayWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceBrowserSeekWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceBrowserSeekWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceBrowserToolBarPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceBrowserToolBarPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceEditWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Sequences/Widgets/DesignerPlugins/qMRMLSequenceEditWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qSlicerSequencesModuleWidgetsPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceBrowserPlayWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceBrowserSeekWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceBrowserToolBarPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceEditWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qSlicerSequencesModuleWidgetsPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceBrowserPlayWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceBrowserSeekWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceBrowserToolBarPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/DesignerPlugins/moc_qMRMLSequenceEditWidgetPlugin.cpp.rule

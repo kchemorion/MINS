@@ -1,0 +1,559 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLWidgetsAbstractPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLWidgetsAbstractPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLWidgetsPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLWidgetsPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLCaptureToolBarPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLCaptureToolBarPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLCheckableNodeComboBoxPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLCheckableNodeComboBoxPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLClipNodeWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLClipNodeWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLCollapsibleButtonPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLCollapsibleButtonPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLColorListViewPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLColorListViewPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLColorTableComboBoxPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLColorTableComboBoxPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLColorTableViewPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLColorTableViewPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLCoordinatesWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLCoordinatesWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLDisplayNodeViewComboBoxPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLDisplayNodeViewComboBoxPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLDisplayNodeWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLDisplayNodeWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLEventBrokerWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLEventBrokerWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLLabelComboBoxPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLLabelComboBoxPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLLayoutWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLLayoutWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLLinearTransformSliderPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLLinearTransformSliderPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLListWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLListWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLMatrixWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLMatrixWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLModelInfoWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLModelInfoWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLNavigationViewPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLNavigationViewPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLNodeAttributeTableViewPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLNodeAttributeTableViewPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLNodeAttributeTableWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLNodeAttributeTableWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLNodeComboBoxPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLNodeComboBoxPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLPlotViewControllerWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLPlotViewControllerWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLPlotWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLPlotWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLRangeWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLRangeWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLROIWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLROIWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLScalarInvariantComboBoxPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLScalarInvariantComboBoxPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLScalarsDisplayWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLScalarsDisplayWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSceneFactoryWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSceneFactoryWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSliceControllerWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSliceControllerWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSliceInformationWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSliceInformationWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSliceVerticalControllerWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSliceVerticalControllerWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSliceWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSliceWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSliderWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSliderWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSpinBoxPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLSpinBoxPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLTableViewPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLTableViewPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLThreeDViewInformationWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLThreeDViewInformationWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLThreeDViewPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLThreeDViewPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLTransformSlidersPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLTransformSlidersPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLTreeViewPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLTreeViewPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLVolumeInfoWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLVolumeInfoWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLVolumeThresholdWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLVolumeThresholdWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLWindowLevelWidgetPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLWindowLevelWidgetPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLExpandingWebViewPlugin.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Libs/MRML/Widgets/DesignerPlugins/qMRMLExpandingWebViewPlugin.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLWidgetsPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLCaptureToolBarPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLCheckableNodeComboBoxPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLClipNodeWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLCollapsibleButtonPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLColorListViewPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLColorTableComboBoxPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLColorTableViewPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLCoordinatesWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLDisplayNodeViewComboBoxPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLDisplayNodeWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLEventBrokerWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLLabelComboBoxPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLLayoutWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLLinearTransformSliderPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLListWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLMatrixWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLModelInfoWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLNavigationViewPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLNodeAttributeTableViewPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLNodeAttributeTableWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLNodeComboBoxPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLPlotViewControllerWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLPlotWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLRangeWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLROIWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLScalarInvariantComboBoxPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLScalarsDisplayWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSceneFactoryWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSliceControllerWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSliceInformationWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSliceVerticalControllerWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSliceWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSliderWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSpinBoxPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLTableViewPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLThreeDViewInformationWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLThreeDViewPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLTransformSlidersPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLTreeViewPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLVolumeInfoWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLVolumeThresholdWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLWindowLevelWidgetPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLExpandingWebViewPlugin.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLWidgetsPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLCaptureToolBarPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLCheckableNodeComboBoxPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLClipNodeWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLCollapsibleButtonPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLColorListViewPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLColorTableComboBoxPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLColorTableViewPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLCoordinatesWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLDisplayNodeViewComboBoxPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLDisplayNodeWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLEventBrokerWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLLabelComboBoxPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLLayoutWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLLinearTransformSliderPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLListWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLMatrixWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLModelInfoWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLNavigationViewPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLNodeAttributeTableViewPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLNodeAttributeTableWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLNodeComboBoxPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLPlotViewControllerWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLPlotWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLRangeWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLROIWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLScalarInvariantComboBoxPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLScalarsDisplayWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSceneFactoryWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSliceControllerWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSliceInformationWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSliceVerticalControllerWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSliceWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSliderWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLSpinBoxPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLTableViewPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLThreeDViewInformationWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLThreeDViewPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLTransformSlidersPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLTreeViewPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLVolumeInfoWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLVolumeThresholdWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLWindowLevelWidgetPlugin.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Libs/MRML/Widgets/DesignerPlugins/moc_qMRMLExpandingWebViewPlugin.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qMRMLWidgets"
+		],
+		"name" : "qMRMLWidgetsPlugins"
+	}
+}

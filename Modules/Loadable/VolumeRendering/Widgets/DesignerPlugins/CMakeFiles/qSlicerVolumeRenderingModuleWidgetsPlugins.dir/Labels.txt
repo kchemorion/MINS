@@ -1,0 +1,25 @@
+# Target labels
+ qSlicerVolumeRenderingModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerVolumeRenderingModuleWidgetsAbstractPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerVolumeRenderingModuleWidgetsAbstractPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerVolumeRenderingModuleWidgetsPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerVolumeRenderingModuleWidgetsPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qMRMLVolumePropertyNodeWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qMRMLVolumePropertyNodeWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerPresetComboBoxPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerPresetComboBoxPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerVolumeRenderingPresetComboBoxPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerVolumeRenderingPresetComboBoxPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerGPUMemoryComboBoxPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerGPUMemoryComboBoxPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/moc_qSlicerVolumeRenderingModuleWidgetsPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/moc_qMRMLVolumePropertyNodeWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/moc_qSlicerPresetComboBoxPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/moc_qSlicerVolumeRenderingPresetComboBoxPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/moc_qSlicerGPUMemoryComboBoxPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/moc_qSlicerVolumeRenderingModuleWidgetsPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/moc_qMRMLVolumePropertyNodeWidgetPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/moc_qSlicerPresetComboBoxPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/moc_qSlicerVolumeRenderingPresetComboBoxPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/moc_qSlicerGPUMemoryComboBoxPlugin.cpp.rule

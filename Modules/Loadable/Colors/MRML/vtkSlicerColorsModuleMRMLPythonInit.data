@@ -1,0 +1,12 @@
+vtkSlicerColorsModuleMRMLPython
+vtkMRMLColorLegendDisplayNode
+vtkMRMLColorLegendDisplayNode
+DEPENDS
+MRMLCorePython
+vtkAddonPython
+vtkITKPython
+vtkSegmentationCorePython
+vtkTeemPython
+MRMLLogicPython
+MRMLDisplayableManagerPython
+MRMLCLIPython

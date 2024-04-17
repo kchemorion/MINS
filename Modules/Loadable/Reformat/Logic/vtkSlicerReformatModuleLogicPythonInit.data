@@ -1,0 +1,14 @@
+vtkSlicerReformatModuleLogicPython
+vtkSlicerReformatLogic
+vtkSlicerReformatLogic
+DEPENDS
+qSlicerBaseQTCLIPython
+MRMLCLIPython
+MRMLCorePython
+vtkAddonPython
+vtkITKPython
+vtkSegmentationCorePython
+vtkTeemPython
+SlicerBaseLogicPython
+MRMLLogicPython
+MRMLDisplayableManagerPython

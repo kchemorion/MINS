@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Transforms/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/osm_qSlicerTransformsSubjectHierarchyPlugins_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Transforms/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/osm_qSlicerTransformsSubjectHierarchyPlugins_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Transforms/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/moc_osm_qSlicerTransformsSubjectHierarchyPlugins.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Transforms/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/osm_qSlicerTransformsSubjectHierarchyPlugins_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Transforms/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerTransformsSubjectHierarchyPlugins/moc_osm_qSlicerTransformsSubjectHierarchyPlugins.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerTransformsSubjectHierarchyPlugins"
+		],
+		"name" : "qSlicerTransformsSubjectHierarchyPluginsPythonQt"
+	}
+}

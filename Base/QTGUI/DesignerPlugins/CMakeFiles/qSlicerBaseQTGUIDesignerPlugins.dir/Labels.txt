@@ -1,0 +1,29 @@
+# Target labels
+ qSlicerBaseQTGUIDesigner
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerQTGUIAbstractPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerQTGUIAbstractPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerQTGUIPlugins.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerQTGUIPlugins.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerDirectoryListViewPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerDirectoryListViewPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerModulePanelPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerModulePanelPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerModulesListViewPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerModulesListViewPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerMouseModeToolBarPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerMouseModeToolBarPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerWidgetPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/DesignerPlugins/qSlicerWidgetPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/DesignerPlugins/moc_qSlicerQTGUIPlugins.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/DesignerPlugins/moc_qSlicerDirectoryListViewPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/DesignerPlugins/moc_qSlicerModulePanelPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/DesignerPlugins/moc_qSlicerModulesListViewPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/DesignerPlugins/moc_qSlicerMouseModeToolBarPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/DesignerPlugins/moc_qSlicerWidgetPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/DesignerPlugins/moc_qSlicerQTGUIPlugins.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/DesignerPlugins/moc_qSlicerDirectoryListViewPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/DesignerPlugins/moc_qSlicerModulePanelPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/DesignerPlugins/moc_qSlicerModulesListViewPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/DesignerPlugins/moc_qSlicerMouseModeToolBarPlugin.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/DesignerPlugins/moc_qSlicerWidgetPlugin.cpp.rule

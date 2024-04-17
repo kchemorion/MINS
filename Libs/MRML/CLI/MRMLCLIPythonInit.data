@@ -1,0 +1,8 @@
+MRMLCLIPython
+vtkMRMLCommandLineModuleNode
+DEPENDS
+MRMLCorePython
+vtkAddonPython
+vtkITKPython
+vtkSegmentationCorePython
+vtkTeemPython

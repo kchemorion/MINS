@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerTextsSubjectHierarchyPlugins/osm_qSlicerTextsSubjectHierarchyPlugins_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerTextsSubjectHierarchyPlugins/osm_qSlicerTextsSubjectHierarchyPlugins_module_init.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerTextsSubjectHierarchyPlugins/moc_osm_qSlicerTextsSubjectHierarchyPlugins.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerTextsSubjectHierarchyPlugins/osm_qSlicerTextsSubjectHierarchyPlugins_init.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Texts/SubjectHierarchyPlugins/generated_cpp/osm_qSlicerTextsSubjectHierarchyPlugins/moc_osm_qSlicerTextsSubjectHierarchyPlugins.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerTextsSubjectHierarchyPlugins"
+		],
+		"name" : "qSlicerTextsSubjectHierarchyPluginsPythonQt"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/CLI/vtkPluginFilterWatcher.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SlicerBaseCLI"
+		],
+		"name" : "SlicerBaseCLI"
+	}
+}

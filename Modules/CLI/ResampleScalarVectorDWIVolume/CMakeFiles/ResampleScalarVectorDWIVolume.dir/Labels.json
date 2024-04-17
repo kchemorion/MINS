@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/CLI/SEMCommandLineLibraryWrapper.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ResampleScalarVectorDWIVolume"
+		],
+		"name" : "ResampleScalarVectorDWIVolume"
+	}
+}

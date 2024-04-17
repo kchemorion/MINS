@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/blvksh33p/Documents/MINS/Applications/MINSApp/qMINSAppMainWindow.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/MINS/Applications/MINSApp/qMINSAppMainWindow.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/MINS/Applications/MINSApp/Widgets/qAppStyle.cxx"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/MINS/Applications/MINSApp/Widgets/qAppStyle.h"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Applications/MINSApp/moc_qMINSAppMainWindow.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Applications/MINSApp/Widgets/moc_qAppStyle.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Applications/MINSApp/qrc_App.cpp"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Applications/MINSApp/moc_qMINSAppMainWindow.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Applications/MINSApp/Widgets/moc_qAppStyle.cpp.rule"
+		},
+		{
+			"file" : "/home/blvksh33p/Documents/MINS/Applications/MINSApp/Resources/App.qrc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qMINSApp"
+		],
+		"name" : "qMINSApp"
+	}
+}

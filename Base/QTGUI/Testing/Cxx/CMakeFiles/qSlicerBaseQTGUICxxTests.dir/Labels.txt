@@ -1,0 +1,25 @@
+# Target labels
+ qSlicerBaseQTGUI
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/Testing/Cxx/qSlicerBaseQTGUICxxTests.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerAbstractModuleTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerAbstractModuleWidgetTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerApplicationTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerDataDialogTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerDirectoryListViewTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerLayoutManagerTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerModulePanelTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerMouseModeToolBarTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerSaveDataDialogCustomFileWriterTest.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerWidgetTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerWidgetTest2.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerLoadableModuleWithPythonTest.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerPythonManagerWithoutApplicationTest.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerScriptedLoadableModuleTest.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/qSlicerScriptedLoadableModuleWidgetTest.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/Testing/Cxx/qrc_qSlicerBaseQTGUITesting.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/Testing/Cxx/moc_qSlicerLoadableModuleWithPythonTest.cxx.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/Testing/Cxx/moc_qSlicerPythonManagerWithoutApplicationTest.cxx.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/Testing/Cxx/moc_qSlicerScriptedLoadableModuleTest.cxx.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/Testing/Cxx/moc_qSlicerScriptedLoadableModuleWidgetTest.cxx.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/Testing/Cxx/Resources/qSlicerBaseQTGUITesting.qrc

@@ -1,0 +1,8 @@
+# Target labels
+ qSlicerVolumeRenderingModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/generated_cpp/osm_qSlicerVolumeRenderingModuleWidgets/osm_qSlicerVolumeRenderingModuleWidgets_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/generated_cpp/osm_qSlicerVolumeRenderingModuleWidgets/osm_qSlicerVolumeRenderingModuleWidgets_module_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/generated_cpp/osm_qSlicerVolumeRenderingModuleWidgets/moc_osm_qSlicerVolumeRenderingModuleWidgets.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/generated_cpp/osm_qSlicerVolumeRenderingModuleWidgets/osm_qSlicerVolumeRenderingModuleWidgets_init.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/VolumeRendering/Widgets/generated_cpp/osm_qSlicerVolumeRenderingModuleWidgets/moc_osm_qSlicerVolumeRenderingModuleWidgets.cpp.rule

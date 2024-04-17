@@ -1,0 +1,16 @@
+vtkSlicerDICOMLibModuleLogicPython
+vtkSlicerDICOMLoadable
+vtkSlicerDICOMLoadable
+vtkSlicerDICOMExportable
+vtkSlicerDICOMExportable
+DEPENDS
+qSlicerBaseQTCLIPython
+MRMLCLIPython
+MRMLCorePython
+vtkAddonPython
+vtkITKPython
+vtkSegmentationCorePython
+vtkTeemPython
+SlicerBaseLogicPython
+MRMLLogicPython
+MRMLDisplayableManagerPython

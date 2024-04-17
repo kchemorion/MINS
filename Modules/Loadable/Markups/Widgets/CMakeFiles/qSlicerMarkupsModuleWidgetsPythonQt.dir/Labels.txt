@@ -1,0 +1,11 @@
+# Target labels
+ qSlicerMarkupsModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/generated_cpp/osm_qSlicerMarkupsModuleWidgets/osm_qSlicerMarkupsModuleWidgets_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/generated_cpp/osm_qSlicerMarkupsModuleWidgets/osm_qSlicerMarkupsModuleWidgets_module_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/generated_cpp/osm_qSlicerMarkupsModuleWidgets/moc_osm_qSlicerMarkupsModuleWidgets.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Modules/Loadable/Markups/Widgets/qSlicerMarkupsModuleWidgetsPythonQtDecorators.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qSlicerMarkupsModuleWidgetsPythonQtDecorators.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/generated_cpp/osm_qSlicerMarkupsModuleWidgets/osm_qSlicerMarkupsModuleWidgets_init.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/generated_cpp/osm_qSlicerMarkupsModuleWidgets/moc_osm_qSlicerMarkupsModuleWidgets.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Markups/Widgets/moc_qSlicerMarkupsModuleWidgetsPythonQtDecorators.cpp.rule

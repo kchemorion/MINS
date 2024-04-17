@@ -1,0 +1,6 @@
+# Target labels
+ qSlicerBaseQTApp
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTApp/Testing/Cxx/qSlicerBaseQTAppCxxTests.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTApp/Testing/Cxx/qSlicerAboutDialogTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTApp/Testing/Cxx/qSlicerErrorReportDialogTest1.cxx

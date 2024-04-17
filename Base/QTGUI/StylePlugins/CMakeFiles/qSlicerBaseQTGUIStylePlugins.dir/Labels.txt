@@ -1,0 +1,7 @@
+# Target labels
+ qSlicerBaseQTGUIStyle
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/StylePlugins/qSlicerStylePlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/StylePlugins/qSlicerStylePlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/StylePlugins/moc_qSlicerStylePlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/StylePlugins/moc_qSlicerStylePlugin.cpp.rule

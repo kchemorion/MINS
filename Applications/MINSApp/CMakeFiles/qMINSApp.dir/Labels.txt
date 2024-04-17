@@ -1,0 +1,13 @@
+# Target labels
+ qMINSApp
+# Source files and their labels
+/home/blvksh33p/Documents/MINS/Applications/MINSApp/qMINSAppMainWindow.cxx
+/home/blvksh33p/Documents/MINS/Applications/MINSApp/qMINSAppMainWindow.h
+/home/blvksh33p/Documents/MINS/Applications/MINSApp/Widgets/qAppStyle.cxx
+/home/blvksh33p/Documents/MINS/Applications/MINSApp/Widgets/qAppStyle.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Applications/MINSApp/moc_qMINSAppMainWindow.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Applications/MINSApp/Widgets/moc_qAppStyle.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Applications/MINSApp/qrc_App.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Applications/MINSApp/moc_qMINSAppMainWindow.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Applications/MINSApp/Widgets/moc_qAppStyle.cpp.rule
+/home/blvksh33p/Documents/MINS/Applications/MINSApp/Resources/App.qrc

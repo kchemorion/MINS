@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "../../../bin/designer/libqSlicerBaseQTGUIDesignerPlugins.pdb"
+  "../../../bin/designer/libqSlicerBaseQTGUIDesignerPlugins.so"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/moc_qSlicerDirectoryListViewPlugin.cpp.o"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/moc_qSlicerDirectoryListViewPlugin.cpp.o.d"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/moc_qSlicerModulePanelPlugin.cpp.o"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/moc_qSlicerModulePanelPlugin.cpp.o.d"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/moc_qSlicerModulesListViewPlugin.cpp.o"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/moc_qSlicerModulesListViewPlugin.cpp.o.d"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/moc_qSlicerMouseModeToolBarPlugin.cpp.o"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/moc_qSlicerMouseModeToolBarPlugin.cpp.o.d"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/moc_qSlicerQTGUIPlugins.cpp.o"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/moc_qSlicerQTGUIPlugins.cpp.o.d"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/moc_qSlicerWidgetPlugin.cpp.o"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/moc_qSlicerWidgetPlugin.cpp.o.d"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerDirectoryListViewPlugin.cxx.o"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerDirectoryListViewPlugin.cxx.o.d"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerModulePanelPlugin.cxx.o"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerModulePanelPlugin.cxx.o.d"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerModulesListViewPlugin.cxx.o"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerModulesListViewPlugin.cxx.o.d"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerMouseModeToolBarPlugin.cxx.o"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerMouseModeToolBarPlugin.cxx.o.d"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerQTGUIAbstractPlugin.cxx.o"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerQTGUIAbstractPlugin.cxx.o.d"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerQTGUIPlugins.cxx.o"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerQTGUIPlugins.cxx.o.d"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerWidgetPlugin.cxx.o"
+  "CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/qSlicerWidgetPlugin.cxx.o.d"
+  "moc_qSlicerDirectoryListViewPlugin.cpp"
+  "moc_qSlicerModulePanelPlugin.cpp"
+  "moc_qSlicerModulesListViewPlugin.cpp"
+  "moc_qSlicerMouseModeToolBarPlugin.cpp"
+  "moc_qSlicerQTGUIPlugins.cpp"
+  "moc_qSlicerWidgetPlugin.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/qSlicerBaseQTGUIDesignerPlugins.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

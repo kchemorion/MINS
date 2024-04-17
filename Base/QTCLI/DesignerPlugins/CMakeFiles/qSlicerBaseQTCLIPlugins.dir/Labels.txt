@@ -1,0 +1,13 @@
+# Target labels
+ qSlicerBaseQTCLI
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/DesignerPlugins/qSlicerQTCLIAbstractPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/DesignerPlugins/qSlicerQTCLIAbstractPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/DesignerPlugins/qSlicerQTCLIPlugins.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/DesignerPlugins/qSlicerQTCLIPlugins.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/DesignerPlugins/qSlicerCLIProgressBarPlugin.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCLI/DesignerPlugins/qSlicerCLIProgressBarPlugin.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/DesignerPlugins/moc_qSlicerQTCLIPlugins.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/DesignerPlugins/moc_qSlicerCLIProgressBarPlugin.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/DesignerPlugins/moc_qSlicerQTCLIPlugins.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCLI/DesignerPlugins/moc_qSlicerCLIProgressBarPlugin.cpp.rule

@@ -1,0 +1,16 @@
+# Target labels
+ qSlicerBaseQTCore
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/Testing/Cxx/qSlicerBaseQTCoreCxxTests.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerAbstractCoreModuleTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerCoreApplicationTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerCoreIOManagerTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerLoadableModuleFactoryTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerUtilsTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerCorePythonManagerWithoutApplicationTest.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerScriptedUtilsTest1.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTCore/Testing/Cxx/qSlicerSslTest.cxx
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/Testing/Cxx/qrc_qSlicerBaseQTCoreTesting.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/Testing/Cxx/moc_qSlicerCorePythonManagerWithoutApplicationTest.cxx.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/Testing/Cxx/moc_qSlicerSslTest.cxx.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTCore/Testing/Cxx/Resources/qSlicerBaseQTCoreTesting.qrc

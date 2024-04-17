@@ -1,0 +1,19 @@
+Determining if the CXX compiler accepts the flag -features=no%anachronisms passed with the following output:
+Change Dir: '/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_01e5a/fast
+gmake[3]: Entering directory '/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_01e5a.dir/build.make CMakeFiles/cmTC_01e5a.dir/build
+gmake[4]: Entering directory '/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01e5a.dir/src.cxx.o
+/home/blvksh33p/.local/bin/c++   -features=no%anachronisms -std=c++17 -o CMakeFiles/cmTC_01e5a.dir/src.cxx.o -c /home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option ‘-features=no%anachronisms’
+gmake[4]: *** [CMakeFiles/cmTC_01e5a.dir/build.make:78: CMakeFiles/cmTC_01e5a.dir/src.cxx.o] Error 1
+gmake[4]: Leaving directory '/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/CMakeFiles/CMakeTmp'
+gmake[3]: *** [Makefile:127: cmTC_01e5a/fast] Error 2
+gmake[3]: Leaving directory '/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0;}
+

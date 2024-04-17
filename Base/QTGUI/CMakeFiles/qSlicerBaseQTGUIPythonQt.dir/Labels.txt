@@ -1,0 +1,11 @@
+# Target labels
+ qSlicerBaseQTGUI
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/generated_cpp/osb_qSlicerBaseQTGUI/osb_qSlicerBaseQTGUI_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/generated_cpp/osb_qSlicerBaseQTGUI/osb_qSlicerBaseQTGUI_module_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/generated_cpp/osb_qSlicerBaseQTGUI/moc_osb_qSlicerBaseQTGUI.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/slicersources-src/Base/QTGUI/qSlicerBaseQTGUIPythonQtDecorators.h
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/moc_qSlicerBaseQTGUIPythonQtDecorators.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/generated_cpp/osb_qSlicerBaseQTGUI/osb_qSlicerBaseQTGUI_init.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/generated_cpp/osb_qSlicerBaseQTGUI/moc_osb_qSlicerBaseQTGUI.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Base/QTGUI/moc_qSlicerBaseQTGUIPythonQtDecorators.cpp.rule

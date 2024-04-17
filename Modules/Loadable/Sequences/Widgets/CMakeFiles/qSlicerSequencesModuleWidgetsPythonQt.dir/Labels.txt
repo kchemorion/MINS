@@ -1,0 +1,8 @@
+# Target labels
+ qSlicerSequencesModuleWidgets
+# Source files and their labels
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/generated_cpp/osm_qSlicerSequencesModuleWidgets/osm_qSlicerSequencesModuleWidgets_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/generated_cpp/osm_qSlicerSequencesModuleWidgets/osm_qSlicerSequencesModuleWidgets_module_init.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/generated_cpp/osm_qSlicerSequencesModuleWidgets/moc_osm_qSlicerSequencesModuleWidgets.cpp
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/generated_cpp/osm_qSlicerSequencesModuleWidgets/osm_qSlicerSequencesModuleWidgets_init.cpp.rule
+/home/blvksh33p/Documents/Slicer-SuperBuild-Debug/Slicer-build/Modules/Loadable/Sequences/Widgets/generated_cpp/osm_qSlicerSequencesModuleWidgets/moc_osm_qSlicerSequencesModuleWidgets.cpp.rule
