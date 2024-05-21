@@ -1,8 +1,22 @@
 import slicer
-from slicer.i18n import tr as _
-from slicer.i18n import translate
 from slicer.ScriptedLoadableModule import *
 from slicer.util import VTKObservationMixin
+import qt
+import vtk
+import ctk  # Import ctk module
+
+mainWindow = slicer.util.mainWindow()
+if mainWindow:
+    # Access the specific menu by its title (e.g., "Edit")
+    editMenu = mainWindow.findChild(qt.QMenu, 'EditMenu')
+    if editMenu:
+        # Iterate through the actions in the menu to find the one you want to disable or hide
+        for action in editMenu.actions():
+            if action.text == "Specific Action":
+                # Disable the action
+                action.setEnabled(False)
+                # Or hide the action
+                action.setVisible(False)
 
 #
 # SegmentEditor
@@ -10,26 +24,28 @@ from slicer.util import VTKObservationMixin
 class SegmentEditor(ScriptedLoadableModule):
     def __init__(self, parent):
         ScriptedLoadableModule.__init__(self, parent)
-        self.parent.title = _("Segment Editor")
-        self.parent.categories = ["", translate("qSlicerAbstractCoreModule", "Segmentation")]
+        self.parent.title = "Segment Editor"
+        self.parent.categories = ["", "Segmentation"]
         self.parent.dependencies = ["Segmentations", "SubjectHierarchy"]
         self.parent.contributors = ["Csaba Pinter (Queen's University), Andras Lasso (Queen's University)"]
-        self.parent.helpText = _("""
-This module allows editing segmentation objects by directly drawing and using segmentation tools on the contained segments.
-Representations other than the labelmap one (which is used for editing) are automatically updated real-time,
-so for example the closed surface can be visualized as edited in the 3D view.
-""")
+        self.parent.helpText = """
+        This module allows editing segmentation objects by directly drawing and using segmentation tools on the contained segments.
+        Representations other than the labelmap one (which is used for editing) are automatically updated real-time,
+        so for example the closed surface can be visualized as edited in the 3D view.
+        """
         self.parent.helpText += parent.defaultDocumentationLink
-        self.parent.acknowledgementText = _("""
-This work is part of SparKit project, funded by Cancer Care Ontario (CCO)'s ACRU program
-and Ontario Consortium for Adaptive Interventions in Radiation Oncology (OCAIRO).
-""")
+        self.parent.acknowledgementText = """
+        This work is part of SparKit project, funded by Cancer Care Ontario (CCO)'s ACRU program
+        and Ontario Consortium for Adaptive Interventions in Radiation Oncology (OCAIRO).
+        """
 
     def setup(self):
         # Register subject hierarchy plugin
         import SubjectHierarchyPlugins
+
         scriptedPlugin = slicer.qSlicerSubjectHierarchyScriptedPlugin(None)
         scriptedPlugin.setPythonSource(SubjectHierarchyPlugins.SegmentEditorSubjectHierarchyPlugin.filePath)
+
 
 #
 # SegmentEditorWidget
@@ -46,9 +62,6 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
     def setup(self):
         ScriptedLoadableModuleWidget.setup(self)
 
-        # Set layout to one-up coronal view using Green slice view
-        slicer.app.layoutManager().setLayout(slicer.vtkMRMLLayoutNode.SlicerLayoutOneUpGreenSliceView)
-
         # Add margin to the sides
         self.layout.setContentsMargins(4, 0, 4, 0)
 
@@ -56,11 +69,20 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         # Segment editor widget
         #
         import qSlicerSegmentationsModuleWidgetsPythonQt
+
         self.editor = qSlicerSegmentationsModuleWidgetsPythonQt.qMRMLSegmentEditorWidget()
         self.editor.setMaximumNumberOfUndoStates(10)
+        # Set parameter node first so that the automatic selections made when the scene is set are saved
         self.selectParameterNode()
         self.editor.setMRMLScene(slicer.mrmlScene)
         self.layout.addWidget(self.editor)
+        
+        layoutManager = slicer.app.layoutManager()
+        # Ensure that the layout includes all three slice views
+        layoutManager.setLayout(slicer.vtkMRMLLayoutNode.SlicerLayoutFourUpView)
+
+        # Add custom GUI
+        self.addCustomGUI()
 
         # Observe editor effect registrations to make sure that any effects that are registered
         # later will show up in the segment editor widget. For example, if Segment Editor is set
@@ -72,6 +94,151 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         self.addObserver(slicer.mrmlScene, slicer.mrmlScene.StartCloseEvent, self.onSceneStartClose)
         self.addObserver(slicer.mrmlScene, slicer.mrmlScene.EndCloseEvent, self.onSceneEndClose)
         self.addObserver(slicer.mrmlScene, slicer.mrmlScene.EndImportEvent, self.onSceneEndImport)
+
+    def addCustomGUI(self):
+        # Create main layout for custom GUI
+        self.customLayout = qt.QVBoxLayout()
+        
+        # Create tabs
+        self.tabs = qt.QTabWidget()
+        self.customLayout.addWidget(self.tabs)
+
+        # Add tabs
+        self.addInputDataTab()
+        self.addSegmentationParametersTab()
+        self.addCylinderROITab()
+        self.addProcessingCleaningTab()
+        self.addOutputExportTab()
+
+        # Add the custom layout to the main layout
+        self.layout.addLayout(self.customLayout)
+
+    def addInputDataTab(self):
+        self.inputDataTab = qt.QWidget()
+        self.tabs.addTab(self.inputDataTab, "Input Data")
+        layout = qt.QFormLayout(self.inputDataTab)
+
+        # MicroCT File input
+        self.microCTFileInput = ctk.ctkPathLineEdit()
+        self.microCTFileInput.filters = ctk.ctkPathLineEdit.Files
+        layout.addRow("MicroCT File:", self.microCTFileInput)
+
+        # Load Image Button
+        self.loadImageButton = qt.QPushButton("Load Image")
+        self.loadImageButton.clicked.connect(self.loadImage)
+        layout.addRow(self.loadImageButton)
+
+        # Manual Spacing
+        self.manualSpacingCheckbox = qt.QCheckBox("Manual Spacing")
+        layout.addRow(self.manualSpacingCheckbox)
+
+        self.spacingXInput = qt.QLineEdit()
+        self.spacingYInput = qt.QLineEdit()
+        self.spacingZInput = qt.QLineEdit()
+        layout.addRow("Spacing (X, Y, Z):", self.spacingXInput)
+        layout.addRow("", self.spacingYInput)
+        layout.addRow("", self.spacingZInput)
+
+    def addSegmentationParametersTab(self):
+        self.segmentationParametersTab = qt.QWidget()
+        self.tabs.addTab(self.segmentationParametersTab, "Segmentation Parameters")
+        layout = qt.QFormLayout(self.segmentationParametersTab)
+
+        # Thresholding Method
+        self.thresholdingMethodComboBox = qt.QComboBox()
+        self.thresholdingMethodComboBox.addItems(["Manual", "Automatic"])
+        layout.addRow("Thresholding Method:", self.thresholdingMethodComboBox)
+
+        # Threshold Values for Manual Method
+        self.voidMinInput = qt.QLineEdit()
+        self.voidMaxInput = qt.QLineEdit()
+        self.hexaMinInput = qt.QLineEdit()
+        self.hexaMaxInput = qt.QLineEdit()
+        layout.addRow("Void Min:", self.voidMinInput)
+        layout.addRow("Void Max:", self.voidMaxInput)
+        layout.addRow("Hexa Min:", self.hexaMinInput)
+        layout.addRow("Hexa Max:", self.hexaMaxInput)
+
+        # Apply Thresholding Button
+        self.applyThresholdingButton = qt.QPushButton("Apply Thresholding")
+        self.applyThresholdingButton.clicked.connect(self.applyThresholding)
+        layout.addRow(self.applyThresholdingButton)
+
+    def addCylinderROITab(self):
+        self.cylinderROITab = qt.QWidget()
+        self.tabs.addTab(self.cylinderROITab, "Cylinder ROI")
+        layout = qt.QFormLayout(self.cylinderROITab)
+
+        # Cylinder Parameters
+        self.cylinderHeightInput = qt.QLineEdit()
+        self.cylinderRadiusInput = qt.QLineEdit()
+        layout.addRow("Height:", self.cylinderHeightInput)
+        layout.addRow("Radius:", self.cylinderRadiusInput)
+
+        # Generate Cylinder Button
+        self.generateCylinderButton = qt.QPushButton("Generate Cylinder")
+        self.generateCylinderButton.clicked.connect(self.generateCylinder)
+        layout.addRow(self.generateCylinderButton)
+
+    def addProcessingCleaningTab(self):
+        self.processingCleaningTab = qt.QWidget()
+        self.tabs.addTab(self.processingCleaningTab, "Processing and Cleaning")
+        layout = qt.QFormLayout(self.processingCleaningTab)
+
+        # Cleaning Parameters
+        self.smoothingIterationsInput = qt.QLineEdit()
+        self.relaxFactorInput = qt.QLineEdit()
+        self.maxHoleSizeInput = qt.QLineEdit()
+        layout.addRow("Smoothing Iterations:", self.smoothingIterationsInput)
+        layout.addRow("Relax Factor:", self.relaxFactorInput)
+        layout.addRow("Max Hole Size:", self.maxHoleSizeInput)
+
+        # Apply Cleaning Button
+        self.applyCleaningButton = qt.QPushButton("Apply Cleaning")
+        self.applyCleaningButton.clicked.connect(self.applyCleaning)
+        layout.addRow(self.applyCleaningButton)
+
+    def addOutputExportTab(self):
+        self.outputExportTab = qt.QWidget()
+        self.tabs.addTab(self.outputExportTab, "Output and Export")
+        layout = qt.QFormLayout(self.outputExportTab)
+
+        # Output Paths
+        self.segmentedVolumePathInput = ctk.ctkPathLineEdit()
+        self.segmentedVolumePathInput.filters = ctk.ctkPathLineEdit.Dirs
+        layout.addRow("Segmented Volume Path:", self.segmentedVolumePathInput)
+
+        self.modelPathInput = ctk.ctkPathLineEdit()
+        self.modelPathInput.filters = ctk.ctkPathLineEdit.Dirs
+        layout.addRow("Model Path:", self.modelPathInput)
+
+        # Save Outputs Button
+        self.saveOutputsButton = qt.QPushButton("Save Outputs")
+        self.saveOutputsButton.clicked.connect(self.saveOutputs)
+        layout.addRow(self.saveOutputsButton)
+
+    def loadImage(self):
+        microCT_file = self.microCTFileInput.currentPath
+        print(f"Loading image from {microCT_file}")
+        # Code to load image into Slicer
+
+    def applyThresholding(self):
+        print("Applying thresholding")
+        # Code to apply thresholding
+
+    def generateCylinder(self):
+        print("Generating cylinder ROI")
+        # Code to generate cylinder ROI
+
+    def applyCleaning(self):
+        print("Applying cleaning and processing")
+        # Code to apply cleaning and processing steps
+
+    def saveOutputs(self):
+        segmented_volume_path = self.segmentedVolumePathInput.currentPath
+        model_path = self.modelPathInput.currentPath
+        print(f"Saving outputs to {segmented_volume_path} and {model_path}")
+        # Code to save outputs
 
     def editorEffectRegistered(self):
         self.editor.updateEffectList()
@@ -90,6 +257,54 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
             return
         self.parameterSetNode = segmentEditorNode
         self.editor.setMRMLSegmentEditorNode(self.parameterSetNode)
+
+    def getDefaultSourceVolumeNodeID(self):
+        layoutManager = slicer.app.layoutManager()
+        firstForegroundVolumeID = None
+        # Use first background volume node in any of the displayed layouts.
+        # If no background volume node is in any slice view then use the first
+        # foreground volume node.
+        for sliceViewName in layoutManager.sliceViewNames():
+            sliceWidget = layoutManager.sliceWidget(sliceViewName)
+            if not sliceWidget:
+                continue
+            compositeNode = sliceWidget.mrmlSliceCompositeNode()
+            if compositeNode.GetBackgroundVolumeID():
+                return compositeNode.GetBackgroundVolumeID()
+            if compositeNode.GetForegroundVolumeID() and not firstForegroundVolumeID:
+                firstForegroundVolumeID = compositeNode.GetForegroundVolumeID()
+        return firstForegroundVolumeID
+
+    def enter(self):
+        """Runs whenever the module is reopened"""
+        if self.editor.turnOffLightboxes():
+            slicer.util.warningDisplay(_("Segment Editor is not compatible with slice viewers in light box mode."
+                                         "Views are being reset."), windowTitle=_("Segment Editor"))
+
+        # Allow switching between effects and selected segment using keyboard shortcuts
+        self.editor.installKeyboardShortcuts()
+
+        # Set parameter set node if absent
+        self.selectParameterNode()
+        self.editor.updateWidgetFromMRML()
+
+        layoutManager = slicer.app.layoutManager()
+        layoutManager.setLayout(slicer.vtkMRMLLayoutNode.SlicerLayoutOneUpGreenSliceView)
+
+        # If no segmentation node exists then create one so that the user does not have to create one manually
+        if not self.editor.segmentationNodeID():
+            segmentationNode = slicer.mrmlScene.GetFirstNode(None, "vtkMRMLSegmentationNode")
+            if not segmentationNode:
+                segmentationNode = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLSegmentationNode")
+            self.editor.setSegmentationNode(segmentationNode)
+            if not self.editor.sourceVolumeNodeID():
+                sourceVolumeNodeID = self.getDefaultSourceVolumeNodeID()
+                self.editor.setSourceVolumeNodeID(sourceVolumeNodeID)
+
+    def exit(self):
+        self.editor.setActiveEffect(None)
+        self.editor.uninstallKeyboardShortcuts()
+        self.editor.removeViewObservations()
 
     def onSceneStartClose(self, caller, event):
         self.parameterSetNode = None
@@ -110,8 +325,10 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         self.removeObservers()
         self.effectFactorySingleton.disconnect("effectRegistered(QString)", self.editorEffectRegistered)
 
+
 class SegmentEditorTest(ScriptedLoadableModuleTest):
     """This is the test case for your scripted module."""
+
     def setUp(self):
         """Do whatever is needed to reset the state - typically a scene clear will be enough."""
         slicer.mrmlScene.Clear(0)
