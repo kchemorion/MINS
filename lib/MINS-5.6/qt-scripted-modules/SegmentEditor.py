@@ -3,24 +3,27 @@ from slicer.ScriptedLoadableModule import *
 from slicer.util import VTKObservationMixin
 import qt
 import vtk
-import ctk  # Import ctk module
+import ctk
+from pathlib import Path
+import pyvista as pv
+import math
+import numpy as np
+import trimesh
+import os
+import matplotlib.pyplot as plt
+from scipy.signal import find_peaks
+from stl import mesh
+import itk
 
 mainWindow = slicer.util.mainWindow()
 if mainWindow:
-    # Access the specific menu by its title (e.g., "Edit")
     editMenu = mainWindow.findChild(qt.QMenu, 'EditMenu')
     if editMenu:
-        # Iterate through the actions in the menu to find the one you want to disable or hide
         for action in editMenu.actions():
             if action.text == "Specific Action":
-                # Disable the action
                 action.setEnabled(False)
-                # Or hide the action
                 action.setVisible(False)
 
-#
-# SegmentEditor
-#
 class SegmentEditor(ScriptedLoadableModule):
     def __init__(self, parent):
         ScriptedLoadableModule.__init__(self, parent)
@@ -46,110 +49,173 @@ class SegmentEditor(ScriptedLoadableModule):
         scriptedPlugin = slicer.qSlicerSubjectHierarchyScriptedPlugin(None)
         scriptedPlugin.setPythonSource(SubjectHierarchyPlugins.SegmentEditorSubjectHierarchyPlugin.filePath)
 
-
-#
-# SegmentEditorWidget
-#
 class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
     def __init__(self, parent):
         ScriptedLoadableModuleWidget.__init__(self, parent)
         VTKObservationMixin.__init__(self)
-
-        # Members
         self.parameterSetNode = None
         self.editor = None
+        self.loaderDialog = None
+        self.logMessages = []
 
     def setup(self):
         ScriptedLoadableModuleWidget.setup(self)
-
-        # Add margin to the sides
         self.layout.setContentsMargins(4, 0, 4, 0)
 
-        #
-        # Segment editor widget
-        #
         import qSlicerSegmentationsModuleWidgetsPythonQt
-
         self.editor = qSlicerSegmentationsModuleWidgetsPythonQt.qMRMLSegmentEditorWidget()
         self.editor.setMaximumNumberOfUndoStates(10)
-        # Set parameter node first so that the automatic selections made when the scene is set are saved
         self.selectParameterNode()
         self.editor.setMRMLScene(slicer.mrmlScene)
         self.layout.addWidget(self.editor)
-        
+
         layoutManager = slicer.app.layoutManager()
-        # Ensure that the layout includes all three slice views
         layoutManager.setLayout(slicer.vtkMRMLLayoutNode.SlicerLayoutFourUpView)
 
-        # Add custom GUI
         self.addCustomGUI()
 
-        # Observe editor effect registrations to make sure that any effects that are registered
-        # later will show up in the segment editor widget. For example, if Segment Editor is set
-        # as startup module, additional effects are registered after the segment editor widget is created.
         self.effectFactorySingleton = slicer.qSlicerSegmentEditorEffectFactory.instance()
         self.effectFactorySingleton.connect("effectRegistered(QString)", self.editorEffectRegistered)
 
-        # Connect observers to scene events
         self.addObserver(slicer.mrmlScene, slicer.mrmlScene.StartCloseEvent, self.onSceneStartClose)
         self.addObserver(slicer.mrmlScene, slicer.mrmlScene.EndCloseEvent, self.onSceneEndClose)
         self.addObserver(slicer.mrmlScene, slicer.mrmlScene.EndImportEvent, self.onSceneEndImport)
 
     def addCustomGUI(self):
-        # Create main layout for custom GUI
         self.customLayout = qt.QVBoxLayout()
-        
-        # Create tabs
         self.tabs = qt.QTabWidget()
         self.customLayout.addWidget(self.tabs)
-
-        # Add tabs
         self.addInputDataTab()
         self.addSegmentationParametersTab()
         self.addCylinderROITab()
         self.addProcessingCleaningTab()
         self.addOutputExportTab()
-
-        # Add the custom layout to the main layout
         self.layout.addLayout(self.customLayout)
 
     def addInputDataTab(self):
         self.inputDataTab = qt.QWidget()
         self.tabs.addTab(self.inputDataTab, "Input Data")
         layout = qt.QFormLayout(self.inputDataTab)
+        self.microCTFolderInput = ctk.ctkPathLineEdit()
+        self.microCTFolderInput.filters = ctk.ctkPathLineEdit.Dirs
+        layout.addRow("MicroCT Folder:", self.microCTFolderInput)
 
-        # MicroCT File input
-        self.microCTFileInput = ctk.ctkPathLineEdit()
-        self.microCTFileInput.filters = ctk.ctkPathLineEdit.Files
-        layout.addRow("MicroCT File:", self.microCTFileInput)
-
-        # Load Image Button
-        self.loadImageButton = qt.QPushButton("Load Image")
-        self.loadImageButton.clicked.connect(self.loadImage)
-        layout.addRow(self.loadImageButton)
-
-        # Manual Spacing
         self.manualSpacingCheckbox = qt.QCheckBox("Manual Spacing")
         layout.addRow(self.manualSpacingCheckbox)
-
         self.spacingXInput = qt.QLineEdit()
         self.spacingYInput = qt.QLineEdit()
         self.spacingZInput = qt.QLineEdit()
+        self.spacingXInput.setDisabled(True)
+        self.spacingYInput.setDisabled(True)
+        self.spacingZInput.setDisabled(True)
+        self.manualSpacingCheckbox.stateChanged.connect(self.toggleSpacingInputs)
         layout.addRow("Spacing (X, Y, Z):", self.spacingXInput)
         layout.addRow("", self.spacingYInput)
         layout.addRow("", self.spacingZInput)
+
+        self.loadImageButton = qt.QPushButton("Load Images")
+        self.loadImageButton.clicked.connect(self.showLoaderDialog)
+        layout.addRow(self.loadImageButton)
+
+    def toggleSpacingInputs(self, state):
+        if state == qt.Qt.Checked:
+            self.spacingXInput.setDisabled(False)
+            self.spacingYInput.setDisabled(False)
+            self.spacingZInput.setDisabled(False)
+        else:
+            self.spacingXInput.setDisabled(True)
+            self.spacingYInput.setDisabled(True)
+            self.spacingZInput.setDisabled(True)
+
+    def showLoaderDialog(self):
+        self.loaderDialog = qt.QProgressDialog("Loading images...", "Cancel", 0, 100, self.parent)
+        self.loaderDialog.setWindowModality(qt.Qt.WindowModal)
+        self.loaderDialog.setWindowTitle("Loading Images")
+        self.loaderDialog.setMinimumDuration(0)
+        self.loaderDialog.setValue(0)
+        self.loaderDialog.setAutoClose(False)
+        self.loaderDialog.setAutoReset(False)
+        self.loaderDialog.show()
+
+        self.loaderLabel = qt.QLabel()
+        self.loaderDialog.setLabel(self.loaderLabel)
+
+        self.logMessages = []
+
+        qt.QTimer.singleShot(100, self.loadImages)
+
+    def updateLoaderDialog(self, message, progress):
+        self.logMessages.append(message)
+        self.loaderLabel.setText("\n".join(self.logMessages[-10:]))
+        self.loaderDialog.setValue(progress)
+        slicer.app.processEvents()
+
+    def loadImages(self):
+        try:
+            microCT_folder = self.microCTFolderInput.currentPath
+            self.updateLoaderDialog(f"Loading images from {microCT_folder}", 0)
+
+            image_files = sorted(
+                [str(f) for f in Path(microCT_folder).glob('*.jpg')] +
+                [str(f) for f in Path(microCT_folder).glob('*.jpeg')] +
+                [str(f) for f in Path(microCT_folder).glob('*.png')]
+            )
+            if not image_files:
+                raise FileNotFoundError("No image files found in the specified directory.")
+
+            self.updateLoaderDialog(f"Found {len(image_files)} image files.", 10)
+
+            reader_factory = vtk.vtkImageReader2Factory()
+            first_reader = reader_factory.CreateImageReader2(image_files[0])
+            first_reader.SetFileName(image_files[0])
+            first_reader.Update()
+            width, height, _ = first_reader.GetOutput().GetDimensions()
+
+            stacked_image = vtk.vtkImageData()
+            stacked_image.SetDimensions(width, height, len(image_files))
+            stacked_image.AllocateScalars(vtk.VTK_UNSIGNED_CHAR, 1)
+
+            for i, file in enumerate(image_files):
+                reader = reader_factory.CreateImageReader2(file)
+                reader.SetFileName(file)
+                reader.Update()
+                image_data = reader.GetOutput()
+
+                for y in range(height):
+                    for x in range(width):
+                        stacked_image.SetScalarComponentFromFloat(x, y, i, 0, image_data.GetScalarComponentAsFloat(x, y, 0, 0))
+
+                self.updateLoaderDialog(f"Slice {i+1}/{len(image_files)} loaded.", int((i + 1) / len(image_files) * 80) + 10)
+
+            volume_node = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLScalarVolumeNode", "MicroCT Volume")
+            volume_node.SetAndObserveImageData(stacked_image)
+
+            if self.manualSpacingCheckbox.isChecked():
+                spacing_x = float(self.spacingXInput.text())
+                spacing_y = float(self.spacingYInput.text())
+                spacing_z = float(self.spacingZInput.text())
+                volume_node.SetSpacing(spacing_x, spacing_y, spacing_z)
+
+            volume_node.CreateDefaultDisplayNodes()
+            slicer.util.setSliceViewerLayers(background=volume_node)
+
+            self.updateLoaderDialog("Volume loaded into Slicer.", 100)
+            self.loaderDialog.close()
+
+        except Exception as e:
+            slicer.util.errorDisplay(f"Failed to load images: {str(e)}")
+            if self.loaderDialog:
+                self.loaderDialog.close()
 
     def addSegmentationParametersTab(self):
         self.segmentationParametersTab = qt.QWidget()
         self.tabs.addTab(self.segmentationParametersTab, "Segmentation Parameters")
         layout = qt.QFormLayout(self.segmentationParametersTab)
 
-        # Thresholding Method
         self.thresholdingMethodComboBox = qt.QComboBox()
         self.thresholdingMethodComboBox.addItems(["Manual", "Automatic"])
         layout.addRow("Thresholding Method:", self.thresholdingMethodComboBox)
 
-        # Threshold Values for Manual Method
         self.voidMinInput = qt.QLineEdit()
         self.voidMaxInput = qt.QLineEdit()
         self.hexaMinInput = qt.QLineEdit()
@@ -159,7 +225,6 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         layout.addRow("Hexa Min:", self.hexaMinInput)
         layout.addRow("Hexa Max:", self.hexaMaxInput)
 
-        # Apply Thresholding Button
         self.applyThresholdingButton = qt.QPushButton("Apply Thresholding")
         self.applyThresholdingButton.clicked.connect(self.applyThresholding)
         layout.addRow(self.applyThresholdingButton)
@@ -169,13 +234,11 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         self.tabs.addTab(self.cylinderROITab, "Cylinder ROI")
         layout = qt.QFormLayout(self.cylinderROITab)
 
-        # Cylinder Parameters
         self.cylinderHeightInput = qt.QLineEdit()
         self.cylinderRadiusInput = qt.QLineEdit()
         layout.addRow("Height:", self.cylinderHeightInput)
         layout.addRow("Radius:", self.cylinderRadiusInput)
 
-        # Generate Cylinder Button
         self.generateCylinderButton = qt.QPushButton("Generate Cylinder")
         self.generateCylinderButton.clicked.connect(self.generateCylinder)
         layout.addRow(self.generateCylinderButton)
@@ -185,15 +248,9 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         self.tabs.addTab(self.processingCleaningTab, "Processing and Cleaning")
         layout = qt.QFormLayout(self.processingCleaningTab)
 
-        # Cleaning Parameters
-        self.smoothingIterationsInput = qt.QLineEdit()
-        self.relaxFactorInput = qt.QLineEdit()
-        self.maxHoleSizeInput = qt.QLineEdit()
-        layout.addRow("Smoothing Iterations:", self.smoothingIterationsInput)
-        layout.addRow("Relax Factor:", self.relaxFactorInput)
-        layout.addRow("Max Hole Size:", self.maxHoleSizeInput)
+        self.marginValueInput = qt.QLineEdit()
+        layout.addRow("Margin Value:", self.marginValueInput)
 
-        # Apply Cleaning Button
         self.applyCleaningButton = qt.QPushButton("Apply Cleaning")
         self.applyCleaningButton.clicked.connect(self.applyCleaning)
         layout.addRow(self.applyCleaningButton)
@@ -203,7 +260,6 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         self.tabs.addTab(self.outputExportTab, "Output and Export")
         layout = qt.QFormLayout(self.outputExportTab)
 
-        # Output Paths
         self.segmentedVolumePathInput = ctk.ctkPathLineEdit()
         self.segmentedVolumePathInput.filters = ctk.ctkPathLineEdit.Dirs
         layout.addRow("Segmented Volume Path:", self.segmentedVolumePathInput)
@@ -212,19 +268,71 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         self.modelPathInput.filters = ctk.ctkPathLineEdit.Dirs
         layout.addRow("Model Path:", self.modelPathInput)
 
-        # Save Outputs Button
         self.saveOutputsButton = qt.QPushButton("Save Outputs")
         self.saveOutputsButton.clicked.connect(self.saveOutputs)
         layout.addRow(self.saveOutputsButton)
 
-    def loadImage(self):
-        microCT_file = self.microCTFileInput.currentPath
-        print(f"Loading image from {microCT_file}")
-        # Code to load image into Slicer
-
     def applyThresholding(self):
-        print("Applying thresholding")
-        # Code to apply thresholding
+        if self.thresholdingMethodComboBox.currentText == "Automatic":
+            self.applyAutomaticThresholding()
+        else:
+            self.applyManualThresholding()
+
+    def applyAutomaticThresholding(self):
+        volume_node = slicer.util.getNode("MicroCT Volume")
+        image_data = slicer.util.arrayFromVolume(volume_node)
+
+        flat_data = image_data.flatten()
+
+        histogram, bin_edges = np.histogram(flat_data, bins=256, range=(0, 255))
+
+        peaks, _ = find_peaks(histogram)
+
+        if len(peaks) < 2:
+            slicer.util.errorDisplay("Automatic thresholding failed: less than two peaks found in the histogram.")
+            return
+
+        first_peak = peaks[0]
+        second_peak = peaks[1]
+        first_valley = np.argmin(histogram[first_peak:second_peak]) + first_peak
+        subsequent_valley = np.argmin(histogram[second_peak:]) + second_peak
+
+        void_min = 0
+        void_max = first_valley
+        hexa_min = subsequent_valley
+        hexa_max = 255
+
+        self.applyThresholdingInSegmentEditor(void_min, void_max, "Void")
+        self.applyThresholdingInSegmentEditor(hexa_min, hexa_max, "Hexa")
+
+    def applyManualThresholding(self):
+        void_min = int(self.voidMinInput.text())
+        void_max = int(self.voidMaxInput.text())
+        hexa_min = int(self.hexaMinInput.text())
+        hexa_max = int(self.hexaMaxInput.text())
+
+        self.applyThresholdingInSegmentEditor(void_min, void_max, "Void")
+        self.applyThresholdingInSegmentEditor(hexa_min, hexa_max, "Hexa")
+
+    def applyThresholdingInSegmentEditor(self, thresh_min, thresh_max, segment_name):
+        segmentEditorWidget = slicer.qMRMLSegmentEditorWidget()
+        segmentEditorWidget.setMRMLScene(slicer.mrmlScene)
+
+        segmentationNode = slicer.util.getNode("vtkMRMLSegmentationNode1")
+        segmentEditorWidget.setSegmentationNode(segmentationNode)
+
+        segmentEditorWidget.setActiveEffectByName("Threshold")
+        effect = segmentEditorWidget.activeEffect()
+        effect.setParameter("MinimumThreshold", thresh_min)
+        effect.setParameter("MaximumThreshold", thresh_max)
+
+        if not segmentationNode.GetSegmentation().GetSegment(segment_name):
+            segmentationNode.GetSegmentation().AddEmptySegment(segment_name)
+
+        segmentEditorWidget.setCurrentSegmentID(segment_name)
+        effect.self().onApply()
+
+        segmentEditorWidget = None
 
     def generateCylinder(self):
         print("Generating cylinder ROI")
@@ -244,7 +352,6 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         self.editor.updateEffectList()
 
     def selectParameterNode(self):
-        # Select parameter set node if one is found in the scene, and create one otherwise
         segmentEditorSingletonTag = "SegmentEditor"
         segmentEditorNode = slicer.mrmlScene.GetSingletonNode(segmentEditorSingletonTag, "vtkMRMLSegmentEditorNode")
         if segmentEditorNode is None:
@@ -253,7 +360,6 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
             segmentEditorNode.SetSingletonTag(segmentEditorSingletonTag)
             segmentEditorNode = slicer.mrmlScene.AddNode(segmentEditorNode)
         if self.parameterSetNode == segmentEditorNode:
-            # nothing changed
             return
         self.parameterSetNode = segmentEditorNode
         self.editor.setMRMLSegmentEditorNode(self.parameterSetNode)
@@ -261,9 +367,6 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
     def getDefaultSourceVolumeNodeID(self):
         layoutManager = slicer.app.layoutManager()
         firstForegroundVolumeID = None
-        # Use first background volume node in any of the displayed layouts.
-        # If no background volume node is in any slice view then use the first
-        # foreground volume node.
         for sliceViewName in layoutManager.sliceViewNames():
             sliceWidget = layoutManager.sliceWidget(sliceViewName)
             if not sliceWidget:
@@ -276,22 +379,18 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         return firstForegroundVolumeID
 
     def enter(self):
-        """Runs whenever the module is reopened"""
         if self.editor.turnOffLightboxes():
             slicer.util.warningDisplay(_("Segment Editor is not compatible with slice viewers in light box mode."
                                          "Views are being reset."), windowTitle=_("Segment Editor"))
 
-        # Allow switching between effects and selected segment using keyboard shortcuts
         self.editor.installKeyboardShortcuts()
 
-        # Set parameter set node if absent
         self.selectParameterNode()
         self.editor.updateWidgetFromMRML()
 
         layoutManager = slicer.app.layoutManager()
         layoutManager.setLayout(slicer.vtkMRMLLayoutNode.SlicerLayoutOneUpGreenSliceView)
 
-        # If no segmentation node exists then create one so that the user does not have to create one manually
         if not self.editor.segmentationNodeID():
             segmentationNode = slicer.mrmlScene.GetFirstNode(None, "vtkMRMLSegmentationNode")
             if not segmentationNode:
@@ -325,20 +424,14 @@ class SegmentEditorWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         self.removeObservers()
         self.effectFactorySingleton.disconnect("effectRegistered(QString)", self.editorEffectRegistered)
 
-
 class SegmentEditorTest(ScriptedLoadableModuleTest):
-    """This is the test case for your scripted module."""
-
     def setUp(self):
-        """Do whatever is needed to reset the state - typically a scene clear will be enough."""
         slicer.mrmlScene.Clear(0)
 
     def runTest(self):
-        """Currently no testing functionality."""
         self.setUp()
         self.test_SegmentEditor1()
 
     def test_SegmentEditor1(self):
-        """Add test here later."""
         self.delayDisplay("Starting the test")
         self.delayDisplay("Test passed!")
